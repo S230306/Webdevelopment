@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(221, 9, 9);
+}
+head{
+    text-emphasis-color: rgb(255, 170, 0);
+}
+p {
+
+    border: 2px solid powderblue;
+    padding: 30px;
+    margin: 50px; 
+  }
