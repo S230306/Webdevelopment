@@ -1,0 +1,1816 @@
+<html lang="en-US">
+<head>
+<title>Create a Free Website | Website Builder | W3Schools.com | W3Schools Spaces</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Description" content="Create a Free Website with W3Schools.com. Use W3Schools Spaces to create your own professional website. Choose a free template, or start from scratch, and add the features you need.">
+<meta name="Keywords" content="Website, Website Builder, Template, Domain, Webpage">
+<meta property="og:image" content="https://www.w3schools.com/images/w3schools_logo_436_2.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="436">
+<meta property="og:image:height" content="228">
+<meta property="og:title" content="Create a Free Website | Free Website Builder | W3Schools.com | W3Schools Spaces">
+<meta property="og:description" content="Create a Free Website with W3Schools.com. Use W3Schools Spaces to create your own professional website. Choose a free template, or start from scratch, and add the features you need.">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="preload" href="/lib/fonts/fontawesome.woff2?14663396" as="font" type="font/woff2" crossorigin> 
+<link rel="preload" href="/lib/fonts/source-code-pro-v14-latin-regular.woff2" as="font" type="font/woff2" crossorigin> 
+<link rel="preload" href="/lib/fonts/roboto-mono-v13-latin-500.woff2" as="font" type="font/woff2" crossorigin> 
+<link rel="preload" href="/lib/fonts/source-sans-pro-v14-latin-700.woff2" as="font" type="font/woff2" crossorigin> 
+<link rel="preload" href="/lib/fonts/source-sans-pro-v14-latin-600.woff2" as="font" type="font/woff2" crossorigin> 
+<link rel="preload" href="/lib/fonts/freckle-face-v9-latin-regular.woff2" as="font" type="font/woff2" crossorigin> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/lib/w3schools31.css">
+<script>
+function gSearch(el) {
+  var cx = '012971019331610648934:m2tou3_miwy';
+  var gcse = document.createElement('script'); gcse.id = 'gSearch'; gcse.type = 'text/javascript'; gcse.async = true;
+  gcse.src = 'https://www.google.com/cse/cse.js?cx=' + cx;
+  var el = document.getElementById('gSearch');
+  if (el == null) {
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+  }
+  open_search(el);
+};
+
+function gTra(el) {
+  var gtra = document.createElement('script'); gtra.id = 'gTra'; gtra.type = 'text/javascript'; gtra.async = true;
+  gtra.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+  var el = document.getElementById('gTra');
+  if (el == null) {
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gtra, s);
+  }
+  open_translate(el);
+};
+</script>
+<!-- Google Tag Manager -->
+<script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KTCFC3S');
+</script>
+<!-- End Google Tag Manager -->
+    <style>
+    
+    /* Customize w3schools23.css */
+#nav_tutorials,
+#nav_references,
+#nav_exercises {
+  margin-top: 0;
+}
+
+@media screen and (min-width: 769px) {
+  .w3-bar-block .w3-button {
+    padding: 0 16px !important;
+  }
+}
+
+.fa {
+  font-size: 20px;
+}
+
+#main {
+  padding: 0;
+  border-right: none;
+}
+
+.fa-thumbs-o-up:hover {
+  color: #fff;
+}
+
+@media (min-width:1675px) {
+  #main {
+    width: auto;
+  }
+}
+
+#nav_tutorials,
+#nav_references,
+#nav_exercises {
+  display: none;
+  padding-bottom: 40px;
+  position: absolute;
+  width: 100%;
+  z-index: 101 !important;
+}
+
+#nav_tutorials h3,
+#nav_references h3,
+#nav_exercises h3,
+#sectionxs_tutorials h3,
+#sectionxs_references h3,
+#sectionxs_exercises h3 {
+  padding-left: 6px;
+  color: #FFF4A3;
+}
+
+div.cse .gsc-control-cse,
+div.gsc-control-cse {
+  padding: 0;
+  margin-top: 0;
+}
+.w3-bar {
+  position: relative;
+  z-index: 4;
+  font-size: 18px;
+  xbackground-color: white;
+  xcolor:#282A35;
+}
+.bar-item-hover:hover {
+  background-color: #04AA6D!important;
+  color:white!important;
+}
+
+.bar-icon-hover:hover {
+  background-color: black!important;
+  color:white!important;
+}
+
+.w3-bar .fa-logo:hover {
+  color:#059862!important;
+}
+
+
+#w3loginbtn {
+  width:130px;
+  background-color:#04AA6D;
+  color:white;
+  border-radius:25px;
+  font-size:18px;
+  line-height:1.5;
+  display:none;
+}
+
+#loginactioncontainer {
+  margin-left:50px;
+}
+
+div.ext_icon_container {
+  background-color:#fff;
+  color:#000;
+}
+body.darkpagetheme div.ext_icon_container {
+  background-color:#1d2a35;
+  color:#ddd;
+}
+
+body.darkpagetheme #main {
+  border-right:0;
+}
+#darkmodemenu {
+  position:absolute;
+  top:35px;
+  right:12px;
+  z-index:100!important;
+  padding:5px 20px 10px 18px;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  transition: top 0.2s;
+  user-select: none;
+  letter-spacing: 1px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:17px;
+  background-color:rgb(21,32,43);
+  color:white;
+  visibility:hidden;
+}
+#darkmodemenu input,#darkmodemenu label {
+  cursor:pointer;
+}
+
+@media only screen and (max-device-width: 480px) {
+  #darkmodemenu {
+    display:none;
+  }
+}
+
+@media screen and (min-width:601px) {
+  #navbtn_menu {
+    display: block;
+  }
+}
+
+@media screen and (max-width:380px) {
+  #w3loginbtn {
+    width:90px!important;
+    padding-left:2px!important;
+    padding-right:2px;
+  }
+  #signupbtn_topnav,#spacesbtn_topnav {
+    display:none!important;
+  }
+}
+
+@media screen and (min-width:861px) {
+  #myAccordion,#navbtn_menu,
+  .hidesm {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width:430px) {
+  #nav_translate_btn,#nav_search_btn,#navbtn_menu {
+    padding:8px 8px;
+  }
+
+}
+
+
+
+@media screen and (max-width:860px) {
+  .barex, .navex  {
+    display: none !important;
+  }
+  #googleSearch, #google_translate_element {
+  top:75px;
+  width:100%!important;
+  right:0!important;
+  padding-top:19px!important;
+}
+}
+
+
+
+@media screen and (max-width:380px) {
+  div.cse .gsc-control-cse,
+  div.gsc-control-cse {
+    padding: 0;
+    margin-top: -4px;
+  }
+}
+
+#google_translate_element {
+  z-index:7!important;
+}
+
+    html {
+        scroll-behavior: smooth;
+    }
+    body  {
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+    .hero-background {
+        background-image: url("workspace.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top 0px center;
+        position: relative;
+    }
+    .info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: row wrap;
+    }
+    .plans {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: row wrap;
+    }
+    .info-part {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: row wrap;
+    }
+    .info-item {
+        width: 200px;
+        margin: 10px;
+        font-size: 30px;
+    }
+    .plan-content {
+        height: 645px;
+    }
+    .plans-part {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: row wrap;
+    }
+    .spaces-button {
+        padding-top: 10px; 
+        padding-bottom: 10px; 
+        font-size: 19px;
+        padding-left: 45px;
+        padding-right: 45px;
+        border-radius: 25px;
+    }
+    .templates {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: row wrap;
+    }
+    .templates-item {
+        width: 50%px;
+        margin: 10px;
+        font-size: 30px;
+    }
+    .community {
+      background-image: url("community-image.jpg");
+      background-repeat: no-repeat;
+      background-size: 100vw;
+      background-position: top -100px center;
+    }
+    .opacity {
+      background-color: #282a36b0;
+    }
+    li {
+        list-style-image: url(check.svg);
+        padding: 3px;
+    }
+    .faq {
+      text-align: center;
+      justify-content: center;
+      padding:20px;
+      width: 80%;
+    }
+    .faq-icon {
+        height: 18px; 
+        width: 18px; 
+        margin-top: 3px;
+    }
+    .accordion {
+      background-color: #f3ecea;
+      color: #282A35;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      text-align: left;
+      border: none;
+      border-radius: 10px;
+      outline: none;
+      transition: 0.4s;
+    }
+    .active, .accordion:hover {
+      background-color: #FFF4A3;
+      color: #282A35;
+    }
+    .active {
+      border-radius: 10px 10px 0px 0px;
+    }
+    .details-description {
+     font-size:22px;
+     margin-top:20px
+    }
+    .panel {
+      padding: 0 10px;
+      padding-left: 40px;
+      padding-right: 40px;
+      background-color: #f3ecea;
+      margin-top:-28px;
+      color: #282A35;
+      display: none;
+      overflow: hidden;
+      border-radius: 0px 0px 10px 10px;
+      text-align: left;
+    }
+    .panel, .accordion {
+      margin-bottom: 2rem;
+    }
+    button.accordion {
+      font-weight: bold;
+      font-size: 16px;
+    }
+    /* How-it-works CSS from existing Spaces page */
+    .how-it-works-container {
+        overflow: hidden!important;
+    }
+    .how-it-works-container .hide-large {
+        display:none;
+    }
+    @media (max-width:1000px) {
+        .how-it-works {
+            min-width:100px;
+        }
+        .how-it-works-container .hide-large {
+            display:block;
+        }
+        .how-it-works-container .hide-small {
+            display:none;
+        }
+    }
+    .feature-list {
+        padding: 21px 0 0 0;
+    }
+    /*End of existing CSS */
+
+    @media only screen and (max-width: 1036px) {
+        .image {
+            max-width: 90%;
+        }
+    }
+    @media only screen and (max-width: 800px) and (min-width: 700px) {
+        .image {
+            max-width: 80%;
+        }
+    }
+    @media only screen and (max-width: 992px) {
+        .upgrade {
+            max-width: 280px !important; 
+        }
+        .part {
+            margin-left: -20px;
+        }
+    }
+    @media only screen and (min-width: 1000px) {
+        .text {
+            margin-right: 80px;
+        }
+        .w3schooler-text {
+            font-size: 22px;
+        }
+        .domain-section {
+            margin-top: -0px !important;
+        }
+        .discord-image {
+            max-width: 50%;
+            padding-bottom: 80px;
+        }
+    }
+    @media only screen and (max-width: 1000px) {
+        .title {
+            padding-bottom: 100px !important;
+        }
+        .feature-responsive {
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-bottom: 30px;
+        }
+        .files-image {
+            width: 100% !important;
+            padding-left: 20% !important;
+            padding-right: 20% !important;
+        }
+        .responsive-margin {
+            margin-bottom: 50px;
+        }
+        .text-domain {
+            order: 1 !important;
+        }
+        .image-domain {
+            order: 2 !important;
+        }
+        .discord-image {
+            width: 80%;
+        }
+        .hero-background .ribbon {
+            width: 180px !important;
+        }
+    }
+    @media only screen and (max-width: 1000px) and (min-width: 600px) {
+        .w3schooler-text {
+            font-size: 20px;
+        }
+    }
+    @media only screen and (max-width: 750px) {
+        .hero-title {
+            font-size: 50px !important;
+        }
+    .details-description {
+     font-size:21px;
+    }
+        .undertitle {
+            font-size: 16px;
+            margin-left: 5px !important;
+            margin-right: 5px !important;
+        }
+        .text-content {
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+        }
+    }
+    @media only screen and (min-width: 750px) {
+        .rightside-text-padding {
+            padding-left: 30px !important;
+            padding-right: 0px !important;
+        }
+    }
+    @media only screen and (max-width: 600px) and (min-width: 400px) {
+        .community {
+            background-size: 200% !important;
+            background-position: top 0px center !important;
+        }
+    }
+    @media only screen and (max-width: 600px)  {
+        .community {
+            background-size: 200% !important;
+            background-position: top 0px center !important;
+        }
+    }
+    @media only screen and (min-width: 600px) and (max-width: 1100px) {
+        .community {
+            background-size: 150% !important;
+            background-position: top 0px center;
+        }
+    }
+    @media only screen and (min-width: 1100px) and (max-width: 1300px) {
+        .community {
+            background-size: 110%;
+            background-position: top 0px center;
+        }
+    }
+    @media only screen and (min-width: 600px) {
+        .top-section {
+            padding-bottom: 80px;
+        }
+    }
+    @media only screen and (max-width: 600px) {
+        .w3schooler-text {
+            font-size: 15px !important;
+            margin-left: 10% !important;
+            margin-right: 10% !important;
+        }
+        .hero-title {
+            font-size: 40px !important;
+        }
+    .details-description {
+     font-size:19px;
+    }
+        .undertitle {
+            margin-left: 5px !important;
+            margin-right: 5px !important;
+        }
+        .plans-title {
+            font-size: 25px !important;
+        }
+        .top-section {
+            padding-bottom: 30px;
+        }
+    }
+    @media only screen and (max-width: 400px) {
+        .hero-title {
+            font-size: 30px !important;
+        }
+        .image {
+            max-width: 90%;
+        }
+    }
+@media screen and (max-width: 1205px) {
+  .plan-content {
+    height:510px;
+  }
+}
+
+
+@media screen and (max-width: 860px) {
+  .ws-hide-860 {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .ws-hide-1080 {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 1160px) {
+  .ws-hide-1160 {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .ws-hide-1200 {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .ws-hide-1200 {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .ws-hide-1250 {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .ws-hide-1300 {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .ws-hide-1350 {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+.ws-hide-900 {
+  display:none;
+  }
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans Pro', sans-serif!important;
+}
+.multiple_users p {
+    font-size:15px;
+    margin-top:-10px;
+}
+
+.multiple_users a{
+    color: #04AA6D;
+    font-size:15px;
+}
+
+.icons-right {
+  color:#f1f1f1;
+}
+
+body.darkpagetheme .grey-color {
+  background-color: #38444d;
+  color: #ddd;
+}
+
+body.darkpagetheme .bar-icon-hover:hover,body.darkpagetheme .fa-logo:hover {
+  background-color: #1d2a35!important;
+  color:white!important;
+}
+table.gstl_50 {/*google search suggestions*/
+  color:#000;
+}
+.topnavmain_pro {
+  background-color:#9763f6;
+  color:#fff;
+}
+.topnavmain_pro:hover {
+  background-color:#7d53cc!important;
+  color:#fff!important;
+}
+
+body.darkpagetheme .icons-right {
+    color: #f1f1f1;
+}
+</style>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script data-cfasync="false" type="text/javascript">
+    window.snigelPubConf = {
+    "adengine": {
+      "activeAdUnits": []
+  }
+}
+</script>
+<script async data-cfasync="false" src="https://cdn.snigelweb.com/adengine/w3schools.com/loader.js" type="text/javascript"></script>
+<script src="/lib/common-deps.js?v=1.0.1"></script>
+<script src="/lib/user-session.js?v=1.0.28"></script>
+<script src="/lib/my-learning.js?v=1.0.19"></script>
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTCFC3S"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div style='display:none;position:absolute;z-index:6;top:122px;right:0;height:75px;padding-right:20px;padding-left:20px;padding-top:5px;' id='googleSearch'><div class='gcse-search'></div></div>
+<div style='display:none;position:absolute;z-index:5;top:122px;right:0;height:75px;padding-right:15px;text-align:right;padding-top:5px;' id='google_translate_element'></div>
+
+<div class="w3-bar w3-card-2 notranslate w3-white" style="padding-left:12px;padding-right:16px;overflow:visible">
+  <a href="https://www.w3schools.com " class="w3-bar-item w3-button w3-hover-none w3-left w3-padding-16" title="Home" style="width:77px;">
+    <i class="fa fa-logo" style="position:relative;z-index:1;color:#04AA6D;font-size:42px!important;"></i>
+  </a>
+
+  <a class="w3-bar-item w3-button w3-hide-small barex bar-item-hover w3-padding-24" href="javascript:void(0)" onclick="w3_open_nav('tutorials')" id="navbtn_tutorials" title="Tutorials" style="width:116px">Tutorials <i class='fa fa-caret-down'></i><i class='fa fa-caret-up' style="display:none"></i></a>
+  <a class="w3-bar-item w3-button w3-hide-small barex bar-item-hover w3-padding-24" href="javascript:void(0)" onclick="w3_open_nav('references')" id="navbtn_references" title="References" style="width:132px">References <i class='fa fa-caret-down'></i><i class='fa fa-caret-up' style="display:none"></i></a>
+  <a class="w3-bar-item w3-button w3-hide-small barex bar-item-hover w3-padding-24 ws-hide-800" href="javascript:void(0)" onclick="w3_open_nav('exercises')" id="navbtn_exercises" title="Exercises" style="width:118px">Exercises <i class='fa fa-caret-down' style="font-size:20px;"></i><i class='fa fa-caret-up' style="display:none"></i></a>
+<!--
+  <a id="signupbtn_topnav" class="w3-bar-item w3-button bar-item-hover w3-padding-24 barex" href="/signup/index.html" title="Sign Up to Improve Your Learning Experience">Sign Up</a>
+  <a id="spacesbtn_topnav" style="display:none" class="w3-bar-item w3-button bar-item-hover w3-padding-24 barex" href="https://spaces.w3schools.com" title="Go to Your Space">Spaces</a>  
+-->
+  <a class="w3-bar-item w3-button bar-item-hover w3-padding-24 barex ws-hide-1300" href="/bootcamp/index.php" title="Web Development Bootcamp">Bootcamp</a>
+  <a class="w3-bar-item w3-button bar-item-hover w3-padding-24 barex ws-hide-1350" href="/videos/index.php" title="Video Tutorials">Videos</a>
+<!--  <a class="w3-bar-item w3-button w3-hide-medium bar-item-hover w3-hide-small w3-padding-24 barex ws-hide-1080" href="/pro/index.php" title="Pro Subscription">Pro <span class="ribbon-topnav ws-hide-1250">NEW</span></a>  -->
+
+  <a class="w3-bar-item w3-button bar-item-hover w3-padding-24" href="javascript:void(0)" onclick="w3_open()" id="navbtn_menu" title="Menu" style="width:93px">Menu <i class='fa fa-caret-down'></i><i class='fa fa-caret-up' style="display:none"></i></a>
+
+  <div id="loginactioncontainer" class="w3-right w3-padding-16" style="margin-left:1px;width:55px">
+    <div id="mypagediv"></div>
+      <!-- <button id="w3loginbtn" style="border:none;display:none;cursor:pointer" class="login w3-right w3-hover-greener" onclick='w3_open_nav("login")'>LOG IN</button>-->
+      <a id="w3loginbtn" title="Login to your account" class="w3-bar-item w3-btn bar-item-hover w3-right ws-light-green" style="display:none;width:112px;background-color:white;color:black;padding-left:39px;position:relative;z-index:4;border-radius:25px;" href="https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fmy-learning.w3schools.com" target="_self">Log in</a>
+  </div>
+  
+  <div class="w3-right w3-padding-16 w3-white">
+    <a id="spacesbtn_topnav" style="display:none;width: 93px;border-radius: 25px; margin-right: 20px;" class="w3-bar-item w3-button w3-right ws-green ws-hover-green" href="https://spaces.w3schools.com" title="Go to Your Space">Spaces</a>  
+    <a id="signupbtn_topnav" class="w3-bar-item w3-button w3-right ws-green ws-hover-green" style="width: 93px;border-radius: 25px; margin-right: 20px;position:relative;z-index:5;" href="/signup/index.html" title="Sign Up to Improve Your Learning Experience">Sign Up</a>
+    <a class="w3-bar-item w3-button w3-right ws-hide-1066 w3-hide-small barex ws-yellow ws-hover-yellow gt-btn-top-spaces" style="width: 150px;border-radius: 25px; margin-right: 15px;" href="/spaces/index.html" title="Get Your Own Website With W3Schools Spaces">Create Website</a>
+    <a class="w3-bar-item w3-button w3-right ws-hide-900 w3-hide-small barex ws-pink ws-hover-pink gt-btn-top-cert" style="border-radius: 25px; margin-right: 15px;" href="https://shop.w3schools.com/collections/course-catalog" target="_blank" id="cert_navbtn" title="Courses">Get Certified</a>
+    <a class="w3-bar-item w3-button w3-right w3-hide-small ws-hide-1160 barex topnavmain_pro gt-btn-top-pro" style="border-radius: 25px; margin-right: 15px;" href="/pro/index.php" title="Upgrade And Unlock Powerful Features"><svg style="position:relative;top:2px;margin-right:2px;" width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.65723 6.24707C6.76704 5.91764 7.233 5.91765 7.34281 6.24707L7.98828 8.1835C8.276 9.04666 8.95332 9.72399 9.81648 10.0117L11.7529 10.6572C12.0824 10.767 12.0824 11.233 11.7529 11.3428L9.81649 11.9883C8.95332 12.276 8.27599 12.9533 7.98828 13.8165L7.34281 15.7529C7.233 16.0823 6.76704 16.0823 6.65723 15.7529L6.01173 13.8165C5.72401 12.9533 5.04669 12.276 4.18353 11.9883L2.24707 11.3428C1.91764 11.233 1.91764 10.767 2.24707 10.6572L4.18353 10.0117C5.04669 9.72399 5.72401 9.04667 6.01173 8.18352L6.65723 6.24707Z" fill="white"></path><path d="M2.79434 1.14824C2.86023 0.950586 3.1398 0.950587 3.20569 1.14824L3.59297 2.3101C3.7656 2.828 4.172 3.2344 4.6899 3.40703L5.85177 3.79432C6.04942 3.86021 6.04942 4.13978 5.85177 4.20567L4.6899 4.59296C4.172 4.76559 3.7656 5.17199 3.59297 5.68989L3.20569 6.85176C3.13981 7.04941 2.86023 7.04942 2.79434 6.85176L2.40704 5.68988C2.23441 5.17198 1.82801 4.76559 1.31012 4.59296L0.148241 4.20567C-0.0494137 4.13978 -0.0494138 3.86021 0.148241 3.79432L1.31012 3.40703C1.82802 3.2344 2.23441 2.82801 2.40704 2.31011L2.79434 1.14824Z" fill="white"></path><path d="M9.8629 0.0988265C9.90682 -0.032943 10.0932 -0.0329419 10.1371 0.098828L10.3953 0.873401C10.5104 1.21867 10.7813 1.4896 11.1266 1.60469L11.9012 1.86288C12.0329 1.9068 12.0329 2.09319 11.9012 2.13711L11.1266 2.39531C10.7813 2.51039 10.5104 2.78133 10.3953 3.12659L10.1371 3.90117C10.0932 4.03294 9.90682 4.03294 9.8629 3.90117L9.6047 3.12659C9.48961 2.78132 9.21868 2.5104 8.87342 2.39531L8.09883 2.13711C7.96706 2.09319 7.96706 1.9068 8.09883 1.86288L8.87342 1.60469C9.21868 1.4896 9.48961 1.21867 9.6047 0.873408L9.8629 0.0988265Z" fill="white"></path></svg> Upgrade</a>    
+    <!--<a class="ws-light-green ws-hover-green w3-bar-item w3-button w3-right w3-hide-small ws-hide-1400 barex" style="border-radius: 25px; margin-right: 15px;" href="https://spaces.w3schools.com" title="Go to Your Space">Spaces</a>-->
+  </div>
+</div>
+
+<div id='myAccordion' class="w3-card-2 w3-center w3-hide-large ws-grey" style="display:none;cursor:default;z-index:99;">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-xxlarge w3-right">&times;</a><br>
+  <div class="w3-container w3-padding-32">
+    <a class="w3-button w3-block" style="font-size:22px;" onclick="open_xs_menu('tutorials');" href="javascript:void(0);">Tutorials <i class='fa fa-caret-down'></i></a>
+    <div id="sectionxs_tutorials" class="w3-left-align w3-show" style="background-color:#282A35;color:white;"></div>
+    <a class="w3-button w3-block" style="font-size:22px;" onclick="open_xs_menu('references')" href="javascript:void(0);">References <i class='fa fa-caret-down'></i></a>
+    <div id="sectionxs_references" class="w3-left-align w3-show" style="background-color:#282A35;color:white;"></div>
+    <a class="w3-button w3-block" style="font-size:22px;" onclick="open_xs_menu('exercises')" href="javascript:void(0);">Exercises <i class='fa fa-caret-down'></i></a>
+    <div id="sectionxs_exercises" class="w3-left-align w3-show" style="background-color:#282A35;color:white;"></div>
+    <a class="w3-button w3-block" style="font-size:22px;" href="https://campus.w3schools.com/collections/course-catalog" target="_blank">Get Certified</a>
+    <a class="w3-button w3-block" style="font-size:22px;" href="/signup/index.html">Sign Up</a>
+    <a class="w3-button w3-block" style="font-size:22px;" href="/pro/index.php" title="Upgrade to Improve Your Learning Experiences">Upgrade</a>
+    <a class="w3-button w3-block" style="font-size:22px;" href="/spaces/index.html" title="Get Your Own Website With W3schools Spaces">Spaces</a>
+    <a class="w3-button w3-block" style="font-size:22px;" href="/bootcamp/index.php">Bootcamp</a>
+    <a class="w3-button w3-block" style="font-size:22px;" href="/videos/index.php" title="Video Tutorials">Videos</a>    
+    <a class="w3-button w3-block" style="font-size:22px;" href="https://shop.w3schools.com" target="_blank">Shop</a>
+<!--    <a class="w3-button w3-block w3-round bar-item-hover" style="font-size:22px;background-color:#04AA6D;color:white;" href="https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fmy-learning.w3schools.com" target="_blank">Log in</a>
+-->
+
+  </div>
+</div>
+
+<nav id="nav_tutorials" class="w3-hide-small navex" style="position:absolute;background-color:#282A35;color:white;padding-bottom:60px;">
+ <div class="w3-content" style="max-width:1100px;font-size:18px">
+ <span onclick="w3_close_nav('tutorials')" class="w3-button w3-xxxlarge w3-display-topright w3-hover-white ws-hide-860" style="padding-right:30px;padding-left:30px;">&times;</span><br>
+ <div class="w3-row-padding w3-bar-block">
+  <div class="w3-container" style="padding-left:13px">
+   <h2 style="color:#FFF4A3;"><b>Tutorials</b></h2>
+  </div>
+  <div class="w3-col l3 m6">
+   <h3 class="w3-margin-top">HTML and CSS</h3>
+   <a class="w3-bar-item w3-button" href="/html/default.asp">Learn HTML</a>
+   <a class="w3-bar-item w3-button" href="/css/default.asp">Learn CSS</a>
+   <a class="w3-bar-item w3-button" href="/css/css_rwd_intro.asp" title="Responsive Web Design">Learn RWD</a>
+   <a class="w3-bar-item w3-button" href="/bootstrap/bootstrap_ver.asp">Learn Bootstrap</a>
+   <a class="w3-bar-item w3-button" href="/w3css/default.asp">Learn W3.CSS</a>
+   <a class="w3-bar-item w3-button" href="/colors/default.asp">Learn Colors</a>
+   <a class="w3-bar-item w3-button" href="/icons/default.asp">Learn Icons</a>
+   <a class="w3-bar-item w3-button" href="/graphics/default.asp">Learn Graphics</a>
+   <a class="w3-bar-item w3-button" href='/graphics/svg_intro.asp'>Learn SVG</a>
+   <a class="w3-bar-item w3-button" href='/graphics/canvas_intro.asp'>Learn Canvas</a>
+   <a class="w3-bar-item w3-button" href="/howto/default.asp">Learn How To</a>
+   <a class="w3-bar-item w3-button" href="/sass/default.php">Learn Sass</a>   
+   <div style="padding:4px 12px;border:2px solid #777;border-radius:5px;margin-top:20px;width:225px;">
+     <h6 style="font-size:18px;margin:8px 0 0 0;font-family: 'Source Sans Pro', sans-serif!important;">Next Bootcamp:</h6>
+     <h6 style="font-size:17px;font-family: 'Source Sans Pro', sans-serif!important;">9th May</h6>
+     <a class="w3-bar-item ws-btn w3-margin-bottom w3-round w3-center" href="/bootcamp/index.php">Learn More</a>
+   </div>
+
+   <div class="w3-hide-large w3-hide-small">
+   <h3 class="w3-margin-top">Data Analytics</h3>
+   <a class="w3-bar-item w3-button" href="/ai/default.asp">Learn AI</a>
+   <a class="w3-bar-item w3-button" href="/python/python_ml_getting_started.asp">Learn Machine Learning</a>
+   <a class="w3-bar-item w3-button" href="/datascience/default.asp">Learn Data Science</a> 
+   <a class="w3-bar-item w3-button" href="/python/numpy/default.asp">Learn NumPy</a>       
+   <a class="w3-bar-item w3-button" href="/python/pandas/default.asp">Learn Pandas</a>    
+   <a class="w3-bar-item w3-button" href="/python/scipy/index.php">Learn SciPy</a>    
+   <a class="w3-bar-item w3-button" href="/python/matplotlib_intro.asp">Learn Matplotlib</a>    
+   <a class="w3-bar-item w3-button" href="/statistics/index.php">Learn Statistics</a>
+   <a class="w3-bar-item w3-button" href="/excel/index.php">Learn Excel</a>
+   <a class="w3-bar-item w3-button" href="/googlesheets/index.php">Learn Google Sheets</a>
+  
+   <h3 class="w3-margin-top">XML Tutorials</h3>
+   <a class="w3-bar-item w3-button" href="/xml/default.asp">Learn XML</a>
+   <a class="w3-bar-item w3-button" href='/xml/ajax_intro.asp'>Learn XML AJAX</a>
+   <a class="w3-bar-item w3-button" href="/xml/dom_intro.asp">Learn XML DOM</a>
+   <a class="w3-bar-item w3-button" href='/xml/xml_dtd_intro.asp'>Learn XML DTD</a>
+   <a class="w3-bar-item w3-button" href='/xml/schema_intro.asp'>Learn XML Schema</a>
+   <a class="w3-bar-item w3-button" href="/xml/xsl_intro.asp">Learn XSLT</a>
+   <a class="w3-bar-item w3-button" href='/xml/xpath_intro.asp'>Learn XPath</a>
+   <a class="w3-bar-item w3-button" href='/xml/xquery_intro.asp'>Learn XQuery</a>
+  </div>
+  </div>
+  <div class="w3-col l3 m6">
+   <h3 class="w3-margin-top">JavaScript</h3>
+   <a class="w3-bar-item w3-button" href="/js/default.asp">Learn JavaScript</a>
+   <a class="w3-bar-item w3-button" href="/jquery/default.asp">Learn jQuery</a>
+   <a class="w3-bar-item w3-button" href="/react/default.asp">Learn React</a>
+   <a class="w3-bar-item w3-button" href="/vue/index.php">Learn Vue.js</a>   
+   <a class="w3-bar-item w3-button" href="/angular/default.asp">Learn AngularJS</a>
+   <a class="w3-bar-item w3-button" href="/js/js_json_intro.asp">Learn JSON</a>
+   <a class="w3-bar-item w3-button" href="/js/js_ajax_intro.asp">Learn AJAX</a>
+   <a class="w3-bar-item w3-button" href="/appml/default.asp">Learn AppML</a>
+   <a class="w3-bar-item w3-button" href="/w3js/default.asp">Learn W3.JS</a>
+
+   <h3 class="w3-margin-top">Programming</h3>
+   <a class="w3-bar-item w3-button" href="/python/default.asp">Learn Python</a>
+   <a class="w3-bar-item w3-button" href="/java/default.asp">Learn Java</a>
+   <a class="w3-bar-item w3-button" href="/c/index.php">Learn C</a>
+   <a class="w3-bar-item w3-button" href="/cpp/default.asp">Learn C++</a>
+   <a class="w3-bar-item w3-button" href="/cs/index.php">Learn C#</a>
+   <a class="w3-bar-item w3-button" href="/r/default.asp">Learn R</a>
+   <a class="w3-bar-item w3-button" href="/kotlin/index.php">Learn Kotlin</a>
+   <a class="w3-bar-item w3-button" href="/go/index.php">Learn Go</a>
+   <a class="w3-bar-item w3-button" href="/django/index.php">Learn Django</a>
+   <a class="w3-bar-item w3-button" href="/typescript/index.php">Learn TypeScript</a>
+  </div> 
+ <div class="w3-col l3 m6">
+   <h3 class="w3-margin-top">Server Side</h3>
+   <a class="w3-bar-item w3-button" href="/sql/default.asp">Learn SQL</a>
+   <a class="w3-bar-item w3-button" href="/mysql/default.asp">Learn MySQL</a>
+   <a class="w3-bar-item w3-button" href="/php/default.asp">Learn PHP</a>
+   <a class="w3-bar-item w3-button" href='/asp/default.asp'>Learn ASP</a>
+   <a class="w3-bar-item w3-button" href='/nodejs/default.asp'>Learn Node.js</a>
+   <a class="w3-bar-item w3-button" href='/nodejs/nodejs_raspberrypi.asp'>Learn Raspberry Pi</a>
+   <a class="w3-bar-item w3-button" href='/git/default.asp'>Learn Git</a>
+   <a class="w3-bar-item w3-button" href='/mongodb/index.php'>Learn MongoDB</a>      
+   <a class="w3-bar-item w3-button" href='/aws/index.php'>Learn AWS Cloud</a>   
+
+   <h3 class="w3-margin-top">Web Building</h3>
+   <a class="w3-bar-item w3-button" href="/spaces/index.html" title="Get Your Own Website With W3shools Spaces">Create a Website <span class="ribbon-topnav ws-yellow">NEW</span></a>
+   <a class="w3-bar-item w3-button" href="/where_to_start.asp">Where To Start</a>
+   <a class="w3-bar-item w3-button" href="/w3css/w3css_templates.asp">Web Templates</a>
+   <a class="w3-bar-item w3-button" href="/browsers/default.asp">Web Statistics</a>
+   <a class="w3-bar-item w3-button" href="https://campus.w3schools.com" target="_blank">Web Certificates</a>
+   <a class="w3-bar-item w3-button" href="/whatis/default.asp">Web Development</a>
+   <a class="w3-bar-item w3-button" href='/tryit/default.asp'>Code Editor</a>
+   <a class="w3-bar-item w3-button" href="/typingspeed/default.asp">Test Your Typing Speed</a>
+   <a class="w3-bar-item w3-button" href="/codegame/index.html" target="_blank">Play a Code Game</a>
+   <a class="w3-bar-item w3-button" href="/cybersecurity/index.php">Cyber Security</a>
+   <a class="w3-bar-item w3-button" href="/accessibility/index.php">Accessibility</a>
+   <a class="w3-bar-item w3-button" href="https://campus.w3schools.com/pages/newsletter" target="_blank">Join our Newsletter</a>
+  </div>
+  <div class="w3-col l3 m6 w3-hide-medium">
+   <h3 class="w3-margin-top">Data Analytics</h3>
+   <a class="w3-bar-item w3-button" href="/ai/default.asp">Learn AI</a>
+   <a class="w3-bar-item w3-button" href="/python/python_ml_getting_started.asp">Learn Machine Learning</a>
+   <a class="w3-bar-item w3-button" href="/datascience/default.asp">Learn Data Science</a> 
+   <a class="w3-bar-item w3-button" href="/python/numpy/default.asp">Learn NumPy</a>    
+   <a class="w3-bar-item w3-button" href="/python/pandas/default.asp">Learn Pandas</a>    
+   <a class="w3-bar-item w3-button" href="/python/scipy/index.php">Learn SciPy</a>    
+   <a class="w3-bar-item w3-button" href="/python/matplotlib_intro.asp">Learn Matplotlib</a>    
+   <a class="w3-bar-item w3-button" href="/statistics/index.php">Learn Statistics</a>
+   <a class="w3-bar-item w3-button" href="/excel/index.php">Learn Excel</a>
+   <a class="w3-bar-item w3-button" href="/googlesheets/index.php">Learn Google Sheets</a>
+
+   <h3 class="w3-margin-top">XML Tutorials</h3>
+   <a class="w3-bar-item w3-button" href="/xml/default.asp">Learn XML</a>
+   <a class="w3-bar-item w3-button" href='/xml/ajax_intro.asp'>Learn XML AJAX</a>
+   <a class="w3-bar-item w3-button" href="/xml/dom_intro.asp">Learn XML DOM</a>
+   <a class="w3-bar-item w3-button" href='/xml/xml_dtd_intro.asp'>Learn XML DTD</a>
+   <a class="w3-bar-item w3-button" href='/xml/schema_intro.asp'>Learn XML Schema</a>
+   <a class="w3-bar-item w3-button" href="/xml/xsl_intro.asp">Learn XSLT</a>
+   <a class="w3-bar-item w3-button" href='/xml/xpath_intro.asp'>Learn XPath</a>
+   <a class="w3-bar-item w3-button" href='/xml/xquery_intro.asp'>Learn XQuery</a>
+  </div>
+ </div>
+ </div>
+ <br class="hidesm">
+</nav>
+
+<nav id="nav_references" class="w3-hide-small navex" style="position:absolute;background-color:#282A35;color:white;padding-bottom:60px;">
+ <div class="w3-content" style="max-width:1100px;font-size:18px">
+ <span onclick="w3_close_nav('references')" class="w3-button w3-xxxlarge w3-display-topright w3-hover-white ws-hide-860" style="padding-right:30px;padding-left:30px;">&times;</span><br>
+ <div class="w3-row-padding w3-bar-block">
+ <div class="w3-container" style="padding-left:13px">
+   <h2 style="color:#FFF4A3;"><b>References</b></h2>
+  </div>
+  <div class="w3-col l3 m6">
+   <h3 class="w3-margin-top">HTML</h3>
+   <a class="w3-bar-item w3-button" href='/tags/default.asp'>HTML Tag Reference</a>
+   <a class="w3-bar-item w3-button" href='/tags/ref_html_browsersupport.asp'>HTML Browser Support</a>   
+   <a class="w3-bar-item w3-button" href='/tags/ref_eventattributes.asp'>HTML Event Reference</a>
+   <a class="w3-bar-item w3-button" href='/colors/default.asp'>HTML Color Reference</a>
+   <a class="w3-bar-item w3-button" href='/tags/ref_attributes.asp'>HTML Attribute Reference</a>
+   <a class="w3-bar-item w3-button" href='/tags/ref_canvas.asp'>HTML Canvas Reference</a>
+   <a class="w3-bar-item w3-button" href='/graphics/svg_reference.asp'>HTML SVG Reference</a>
+   <a class="w3-bar-item w3-button" href='/graphics/google_maps_reference.asp'>Google Maps Reference</a>
+   <h3 class="w3-margin-top">CSS</h3>
+   <a class="w3-bar-item w3-button" href='/cssref/index.php'>CSS Reference</a>
+   <a class="w3-bar-item w3-button" href='/cssref/css3_browsersupport.asp'>CSS Browser Support</a>
+   <a class="w3-bar-item w3-button" href='/cssref/css_selectors.asp'>CSS Selector Reference</a>
+   <a class="w3-bar-item w3-button" href='/bootstrap/bootstrap_ref_all_classes.asp'>Bootstrap 3 Reference</a>
+   <a class="w3-bar-item w3-button" href='/bootstrap4/bootstrap_ref_all_classes.asp'>Bootstrap 4 Reference</a>
+   <a class="w3-bar-item w3-button" href='/w3css/w3css_references.asp'>W3.CSS Reference</a>
+   <a class="w3-bar-item w3-button" href='/icons/icons_reference.asp'>Icon Reference</a>
+   <a class="w3-bar-item w3-button" href='/sass/sass_functions_string.php'>Sass Reference</a>
+  </div>
+  <div class="w3-col l3 m6">
+   <h3 class="w3-margin-top">JavaScript</h3>
+   <a class="w3-bar-item w3-button" href='/jsref/default.asp'>JavaScript Reference</a>
+   <a class="w3-bar-item w3-button" href='/jsref/default.asp'>HTML DOM Reference</a>
+   <a class="w3-bar-item w3-button" href='/jquery/jquery_ref_overview.asp'>jQuery Reference</a>
+   <a class="w3-bar-item w3-button" href='/angular/angular_ref_directives.asp'>AngularJS Reference</a>
+   <a class="w3-bar-item w3-button" href="/appml/appml_reference.asp">AppML Reference</a>
+   <a class="w3-bar-item w3-button" href="/w3js/w3js_references.asp">W3.JS Reference</a>
+
+   <h3 class="w3-margin-top">Programming</h3>
+   <a class="w3-bar-item w3-button" href='/python/python_reference.asp'>Python Reference</a>
+   <a class="w3-bar-item w3-button" href='/java/java_ref_keywords.asp'>Java Reference</a>
+  </div>
+  <div class="w3-col l3 m6">
+   <h3 class="w3-margin-top">Server Side</h3>
+   <a class="w3-bar-item w3-button" href='/sql/sql_ref_keywords.asp'>SQL Reference</a>
+   <a class="w3-bar-item w3-button" href='/mysql/mysql_ref_functions.asp'>MySQL Reference</a>
+   <a class="w3-bar-item w3-button" href='/php/php_ref_overview.asp'>PHP Reference</a>
+   <a class="w3-bar-item w3-button" href='/asp/asp_ref_response.asp'>ASP Reference</a>
+   <h3 class="w3-margin-top">XML</h3>
+   <a class="w3-bar-item w3-button" href='/xml/dom_nodetype.asp'>XML DOM Reference</a>
+   <a class="w3-bar-item w3-button" href='/xml/dom_http.asp'>XML Http Reference</a>
+   <a class="w3-bar-item w3-button" href='/xml/xsl_elementref.asp'>XSLT Reference</a>
+   <a class="w3-bar-item w3-button" href='/xml/schema_elements_ref.asp'>XML Schema Reference</a>
+  </div>
+  <div class="w3-col l3 m6">
+   <h3 class="w3-margin-top">Character Sets</h3>
+   <a class="w3-bar-item w3-button" href='/charsets/default.asp'>HTML Character Sets</a>
+   <a class="w3-bar-item w3-button" href='/charsets/ref_html_ascii.asp'>HTML ASCII</a>
+   <a class="w3-bar-item w3-button" href='/charsets/ref_html_ansi.asp'>HTML ANSI</a>
+   <a class="w3-bar-item w3-button" href='/charsets/ref_html_ansi.asp'>HTML Windows-1252</a>
+   <a class="w3-bar-item w3-button" href='/charsets/ref_html_8859.asp'>HTML ISO-8859-1</a>
+   <a class="w3-bar-item w3-button" href='/charsets/ref_html_symbols.asp'>HTML Symbols</a>
+   <a class="w3-bar-item w3-button" href='/charsets/ref_html_utf8.asp'>HTML UTF-8</a>
+  </div>
+ </div>
+ <br class="hidesm">
+ </div>
+</nav>
+
+<nav id="nav_exercises" class="w3-hide-small navex" style="position:absolute;background-color:#282A35;color:white;padding-bottom:60px;">
+ <div class="w3-content" style="max-width:1100px;font-size:18px">
+ <span onclick="w3_close_nav('exercises')" class="w3-button w3-xxxlarge w3-display-topright w3-hover-white ws-hide-860" style="padding-right:30px;padding-left:30px;">&times;</span><br>
+ <div class="w3-row-padding w3-bar-block">
+ <div class="w3-container" style="padding-left:13px">
+   <h2 style="color:#FFF4A3;"><b>Exercises and Quizzes</b></h2>
+  </div>
+  <div class="w3-col l3 m6">
+   <h3 class="w3-margin-top"><a class="ws-btn ws-yellow w3-hover-text-white" style="width:155px;font-size:21px" href="/exercises/index.php">Exercises</a></h3>
+   <a class="w3-bar-item w3-button" href="/html/html_exercises.asp">HTML Exercises</a>
+   <a class="w3-bar-item w3-button" href="/css/css_exercises.asp">CSS Exercises</a>
+   <a class="w3-bar-item w3-button" href="/js/js_exercises.asp">JavaScript Exercises</a>
+   <a class="w3-bar-item w3-button" href="/sql/sql_exercises.asp">SQL Exercises</a>
+   <a class="w3-bar-item w3-button" href="/mysql/mysql_exercises.asp">MySQL Exercises</a>
+   <a class="w3-bar-item w3-button" href="/php/php_exercises.asp">PHP Exercises</a>
+   <a class="w3-bar-item w3-button" href="/python/python_exercises.asp">Python Exercises</a>
+   <a class="w3-bar-item w3-button" href="/python/numpy/numpy_exercises.asp">NumPy Exercises</a>
+   <a class="w3-bar-item w3-button" href="/python/pandas/pandas_exercises.asp">Pandas Exercises</a>
+   <a class="w3-bar-item w3-button" href="/python/scipy/scipy_exercises.php">SciPy Exercises</a>
+   <a class="w3-bar-item w3-button" href="/jquery/jquery_exercises.asp">jQuery Exercises</a>
+   <a class="w3-bar-item w3-button" href="/java/java_exercises.asp">Java Exercises</a>
+   <a class="w3-bar-item w3-button" href="/cpp/cpp_exercises.asp">C++ Exercises</a>
+   <a class="w3-bar-item w3-button" href="/cs/cs_exercises.asp">C# Exercises</a>
+   <a class="w3-bar-item w3-button" href="/react/react_exercises.asp">React Exercises</a>
+   <a class="w3-bar-item w3-button" href="/vue/vue_exercises.php">Vue.js Exercises</a>   
+   <a class="w3-bar-item w3-button" href="/r/r_exercises.asp">R Exercises</a>
+   <a class="w3-bar-item w3-button" href="/kotlin/kotlin_exercises.php">Kotlin Exercises</a>
+   <a class="w3-bar-item w3-button" href="/go/go_exercises.php">Go Exercises</a>
+   <a class="w3-bar-item w3-button" href="/bootstrap/bootstrap_exercises.asp">Bootstrap Exercises</a>
+   <a class="w3-bar-item w3-button" href="/bootstrap4/bootstrap_exercises.asp">Bootstrap 4 Exercises</a>
+   <a class="w3-bar-item w3-button" href="/bootstrap5/bootstrap_exercises.php">Bootstrap 5 Exercises</a>
+   <a class="w3-bar-item w3-button" href="/git/git_exercises.asp">Git Exercises</a>
+   <a class="w3-bar-item w3-button" href="/excel/excel_exercises.php">Excel Exercises</a>  
+  </div>
+  <div class="w3-col l3 m6">
+   <h3 class="w3-margin-top"><a class="ws-btn ws-yellow w3-hover-text-white" style="width:135px;font-size:21px" href="/quiztest/default.asp">Quizzes</a></h3>
+   <a class="w3-bar-item w3-button" href="/html/html_quiz.asp" target="_top">HTML Quiz</a>
+   <a class="w3-bar-item w3-button" href="/css/css_quiz.asp" target="_top">CSS Quiz</a>
+   <a class="w3-bar-item w3-button" href="/js/js_quiz.asp" target="_top">JavaScript Quiz</a>
+   <a class="w3-bar-item w3-button" href="/sql/sql_quiz.asp" target="_top">SQL Quiz</a>
+   <a class="w3-bar-item w3-button" href="/mysql/mysql_quiz.asp" target="_top">MySQL Quiz</a>
+   <a class="w3-bar-item w3-button" href="/php/php_quiz.asp" target="_top">PHP Quiz</a>
+   <a class="w3-bar-item w3-button" href="/python/python_quiz.asp" target="_top">Python Quiz</a>
+   <a class="w3-bar-item w3-button" href="/python/numpy/numpy_quiz.asp" target="_top">NumPy Quiz</a>
+   <a class="w3-bar-item w3-button" href="/python/pandas/pandas_quiz.asp" target="_top">Pandas Quiz</a>
+   <a class="w3-bar-item w3-button" href="/python/scipy/scipy_quiz.php" target="_top">SciPy Quiz</a>
+   <a class="w3-bar-item w3-button" href="/jquery/jquery_quiz.asp" target="_top">jQuery Quiz</a>
+   <a class="w3-bar-item w3-button" href="/java/java_quiz.asp" target="_top">Java Quiz</a>
+   <a class="w3-bar-item w3-button" href="/cpp/cpp_quiz.asp" target="_top">C++ Quiz</a>
+   <a class="w3-bar-item w3-button" href="/cs/cs_quiz.asp" target="_top">C# Quiz</a>
+   <a class="w3-bar-item w3-button" href="/react/react_quiz.asp" target="_top">React Quiz</a>
+   <a class="w3-bar-item w3-button" href="/vue/vue_quiz.php" target="_top">Vue.js Quiz</a>   
+   <a class="w3-bar-item w3-button" href="/r/r_quiz.asp" target="_top">R Quiz</a>
+   <a class="w3-bar-item w3-button" href="/kotlin/kotlin_quiz.php" target="_top">Kotlin Quiz</a>
+   <a class="w3-bar-item w3-button" href="/xml/xml_quiz.asp" target="_top">XML Quiz</a>
+   <a class="w3-bar-item w3-button" href="/bootstrap/bootstrap_quiz.asp" target="_top">Bootstrap Quiz</a>
+   <a class="w3-bar-item w3-button" href="/bootstrap4/bootstrap_quiz.asp" target="_top">Bootstrap 4 Quiz</a>
+   <a class="w3-bar-item w3-button" href="/bootstrap5/bootstrap_quiz.php" target="_top">Bootstrap 5 Quiz</a>
+   <a class="w3-bar-item w3-button" href="/cybersecurity/cybersecurity_quiz.php">Cyber Security Quiz</a>
+   <a class="w3-bar-item w3-button" href="/accessibility/accessibility_quiz.php">Accessibility Quiz</a>
+  </div>
+  <div class="w3-col l3 m6">
+   <h3 class="w3-margin-top"><a class="ws-btn ws-yellow w3-hover-text-white" style="width:135px;font-size:21px" href="https://shop.w3schools.com/collections/course-catalog" target="_blank">Courses</a></h3>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/course-catalog/products/html-course" target="_blank">HTML Course</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/course-catalog/products/css-course" target="_blank">CSS Course</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/course-catalog/products/javascript-course" target="_blank">JavaScript Course</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/course-catalog/products/front-end-course" target="_blank">Front End Course</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/course-catalog/products/sql-course" target="_blank">SQL Course</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/course-catalog/products/php-course" target="_blank">PHP Course</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/course-catalog/products/python-course" target="_blank">Python Course</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/course-catalog/products/numpy-course" target="_blank">NumPy Course</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/course-catalog/products/pandas-course" target="_blank">Pandas Course</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/course-catalog/products/data-analytics-program" target="_blank">Data Analytics Course</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/course-catalog/products/jquery-course" target="_blank">jQuery Course</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/course-catalog/products/java-course" target="_blank">Java Course</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/course-catalog/products/c-course-1" target="_blank">C++ Course</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/course-catalog/products/c-course" target="_blank">C# Course</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/course-catalog/products/r-course" target="_blank">R Course</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/course-catalog/products/react-js-course" target="_blank">React.js Course</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/course-catalog/products/bootstrap-course" target="_blank">Bootstrap 3 Course</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/course-catalog/products/bootstrap-4-course" target="_blank">Bootstrap 4 Course</a> 
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/course-catalog/products/xml-course" target="_blank">XML Course</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/course-catalog/products/cyber-security-course" target="_blank">Cyber Security Course</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/course-catalog/products/accessibility-course" target="_blank">Accessibility Course</a>
+  </div>
+  <div class="w3-col l3 m6">
+   <h3 class="w3-margin-top"><a class="ws-btn ws-yellow w3-hover-text-white" style="width:150px;font-size:21px" href="https://shop.w3schools.com/collections/certifications" target="_blank">Certificates</a></h3>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/certifications/products/html-certificate" target="_blank">HTML Certificate</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/certifications/products/css-certificate" target="_blank">CSS Certificate</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/certifications/products/javascript-certificate" target="_blank">JavaScript Certificate</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/certifications/products/front-end-certificate" target="_blank">Front End Certificate</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/certifications/products/sql-certificate" target="_blank">SQL Certificate</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/certifications/products/php-certificate" target="_blank">PHP Certificate</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/certifications/products/python-certificate" target="_blank">Python Certificate</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/certifications/products/data-science-certificate" target="_blank">Data Science Certificate</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/certifications/products/bootstrap-3-certificate" target="_blank">Bootstrap 3 Certificate</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/certifications/products/bootstrap-4-certificate" target="_blank">Bootstrap 4 Certificate</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/certifications/products/bootstrap-5-certificate" target="_blank">Bootstrap 5 Certificate</a>   
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/certifications/products/jquery-certificate" target="_blank">jQuery Certificate</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/certifications/products/java-certificate" target="_blank">Java Certificate</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/certifications/products/c-certificate" target="_blank">C++ Certificate</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/certifications/products/c-certificate-1" target="_blank">C# Certificate</a>   
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/certifications/products/react-js-certificate" target="_blank">React.js Certificate</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/certifications/products/typescript-certificate" target="_blank">TypeScript Certificate</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/certifications/products/xml-certificate" target="_blank">XML Certificate</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/certifications/products/cyber-security-certificate" target="_blank">Cyber Security Certificate</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/certifications/products/accessibility-certificate" target="_blank">Accessibility Certificate</a>
+   <a class="w3-bar-item w3-button" href="https://shop.w3schools.com/collections/certifications/products/excel-certificate" target="_blank">Excel Certificate</a>   
+  </div>
+ </div>
+ <br class="hidesm">
+ </div>
+</nav>
+
+<div style="position:relative;z-index:99">
+  <div class="w3-right ext_icon_container" style="background-color:transparent">
+    <a class="icons-right w3-bar-item w3-button bar-icon-hover w3-right w3searchbtntopnav" href="javascript:void(0)" style="width:52px;padding-top:11px;padding-bottom:13px;padding-left:11px;padding-right:12px;" onclick="gSearch(this)" title='Search W3Schools' id="nav_search_btn"><i class='fa fa-search'></i></a>
+    <a class="icons-right w3-bar-item w3-button bar-icon-hover w3-right w3translatebtntopnav" href="javascript:void(0)" style="width:52px;padding-top:11px;padding-bottom:13px;padding-left:11px;padding-right:12px" onclick="gTra(this)" title='Translate W3Schools' id="nav_translate_btn"><i class='fa fa-globe'></i></a>
+    <a class="icons-right w3-bar-item w3-button bar-icon-hover w3-right" style="width:52px;padding-top:11px;padding-bottom:13px;padding-left:11px;padding-right:12px" href="javascript:void(0)" onmouseover="mouseoverdarkicon()" onmouseout="mouseoutofdarkicon()" onclick='changepagetheme(2)'><i class='fa fa-adjust'></i></a>
+    <div id="darkmodemenu" onmouseover="mouseoverdarkicon()" onmouseout="mouseoutofdarkicon()">
+      <input id="radio_darkpage" type="checkbox" name="radio_theme_mode" onclick="click_darkpage()"><label for="radio_darkpage"> Dark mode</label>
+    </div>
+  </div>
+</div>
+
+<div class="w3-main">
+<!--
+        <div style="background-color: #FFF4A3; color:#282A35; display: flex; justify-content: center; padding-left: 30px; padding-right: 30px; padding-top: 4px; font-family: 'Source Sans Pro', sans-serif;">
+            <h5><b>SPACES LAUNCH &#127881;</b> New subscribers: Get 50% off on any plan for a year. Use code <b>SPACES50</b> at checkout</h5>
+        </div>
+        <div style="background-color: #252A35; color:#FFC0C7; display: flex; justify-content: center; padding-top: 2px; font-family: 'Source Sans Pro', sans-serif;">
+            <p>Time left until the discount expires:&nbsp;</p>
+            <p style="font-weight: bold;" id="timer"></p>
+        </div>
+-->
+        <div class="w3-center hero-background">
+            <div class="w3-content">
+                <div class="top-section" style="padding-top:100px; color: #ffffff;padding-left:25px;padding-right:25px;">
+                    <h1 class="hero-title" style="color: #ffffff;font-size: 58px;font-weight:700">Create a Free Website</h1>
+                    <!--<h2 style="font-size:30px">with <b style="color: #FFC0C7;">W3Schools Spaces</b></h2>-->
+                            <h4 class="details-description">Code 
+                            websites directly in the browser with 
+                            <span style="color: #FFC0C7;">W3Schools Spaces</span></h4>
+                            
+                    <a class="spaces-button w3-button w3-round-xxlarge ws-green ws-hover-green" style="margin-top: 30px;" href="https://spaces.w3schools.com/createspace">Get Started for Free</a>
+                    <h6 style="margin-top:30px">No credit card required.</h6>
+                </div>
+            </div>
+          <div class="w3-row" style="padding-bottom:80px;padding-left:50px;padding-right:50px;">
+
+            <div class="w3-col l3 m6 s12"> 
+              <img src="puzzle.svg" alt="Practice coding skills" style="vertical-align:top;width:56px;height: 56px;margin:12px 15px 0 0">
+              <div style="display:inline-block;text-align:left;">
+                <h4 style="color: #D9EEE1;font-size:22px;">Practice</h4>
+                <p style="color: #FFFFFF;margin-top:-12px;font-size:17px">Coding Skills</p>
+              </div>
+            </div>
+            
+
+            <div class="w3-col l3 m6 s12"> 
+              <img src="boxes.svg" alt="Build websites" style="vertical-align:top;width:56px;height: 56px;margin:12px 15px 0 -28px">
+              <div style="display:inline-block;text-align:left;">
+                <h4 style="color: #D9EEE1;font-size:22px;">Build</h4>
+                <p style="color: #FFFFFF;margin-top:-12px;font-size:17px">Websites</p>
+              </div>
+            </div>
+
+
+            <div class="w3-col l3 m6 s12"> 
+              <img src="globe.svg" alt="Host securely" style="vertical-align:top;width:56px;height: 56px;margin:12px 15px 0 -28px">
+              <div style="display:inline-block;text-align:left;">
+                <h4 style="color: #D9EEE1;font-size:22px;">Host</h4>
+                <p style="color: #FFFFFF;margin-top:-12px;font-size:17px">Securely</p>
+              </div>
+            </div>
+
+
+            <div class="w3-col l3 m6 s12"> 
+              <img src="upload.svg" alt="Publish your site" style="vertical-align:top;width:56px;height: 56px;margin:12px 15px 0 0">
+              <div style="display:inline-block;text-align:left;">
+                <h4 style="color: #D9EEE1;font-size:22px;">Publish</h4>
+                <p style="color: #FFFFFF;margin-top:-12px;font-size:17px">To the world</p>
+              </div>
+            </div>
+          </div>
+                <svg style="width: 100%; margin-bottom: -9px;" viewBox="0 0 5950 394" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 293.923V393.09H330.556H1983.33H3966.67L5950 393.091L5950 203.02C5288.89 244.34 4627.78 194.756 3966.67 128.645C3878.52 119.83 3790.37 110.722 3702.22 101.613C3129.26 42.4069 2556.3 -16.7992 1983.33 4.6869C1322.22 29.4786 661.111 161.701 330.556 227.812L0 293.923Z" fill="#D9EEE1"/>
+                </svg>
+            </div>
+        </div>
+        <div class="w3-center ws-light-green" style="margin-top: -2px;">
+            <div class="w3-content">
+                <div style="padding:40px 25px 80px 25px;">
+                    <h1 style="font-weight: 900; color: #282A35;">Powerful Code Editor</h1>
+                    <h5 class="undertitle" style="color: #282A35;margin-bottom:45px;">Front-end, Back-end or Full-stack - the choice is yours</h5>
+                    <img class="image w3-round window" src="dynamicspaces.gif" alt="Dynamic Spaces" style="max-width:850px;margin:20px auto;width:100%;height:auto;display:block;" loading="lazy"> <br>
+                </div>
+                <div style="text-align:center;margin-bottom:35px;margin-top:-45px">
+                  <a class="fa fa-arrow-down" href="#practice" style="font-size:22px;text-decoration:none" title="Read More"></a>
+                </div>
+            </div>
+            <svg style="width: 100%; margin-bottom: -8px;" viewBox="0 0 4000 387" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="wavepath1" fill-rule="evenodd" clip-rule="evenodd" d="M330.556 103.785L0 87.1734V386.185H330.556H1983.33H3966.67H5950V70.5616C5817.78 63.9169 5685.56 56.6077 5553.33 49.2985C5024.44 20.0618 4495.56 -9.17488 3966.67 4.11453C3614.07 12.9741 3261.48 40.7343 2908.89 68.4944C2600.37 92.7845 2291.85 117.075 1983.33 128.703C1322.22 153.62 661.111 120.397 330.556 103.785Z" fill="white"/>
+            </svg>
+        </div>
+        <div class="w3-center ws-white" style="margin-top: -2px;" id="practice">
+            <div class="w3-content">
+                <div style="padding-top:50px; padding-bottom:80px;">
+                    <h1 style="font-weight: 900;">Practice Makes Perfect</h1>
+                    <h4 class="undertitle">Sharpen and Master your development skills with these technologies using <b>Spaces</b>.</h4>
+                    <img class="image w3-round" src="languages.png" class="window" alt="Languages" style="margin-bottom: 20px; margin-top: 30px;width:100%;max-width:550px"> <br>
+                    <a class="spaces-button w3-button w3-round-xxlarge ws-green ws-hover-green" href="https://spaces.w3schools.com/createspace" style="margin-top: 20px;">Get Spaces</a>
+                </div>
+            </div>
+            <svg style="width: 100%; margin-bottom: -10px;" viewBox="0 0 5950 364" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M141.726 0H0V363.61H5950L5950 181.806C5795.94 166.176 5642.96 136.068 5489.96 105.955C5359.82 80.3423 5229.67 54.7264 5098.82 38.0139C4817.85 3.93391e-06 4533.16 3.93391e-06 4251.77 38.0139C4120 54.8193 3988.58 80.6274 3857.44 106.382C3704.83 136.352 3552.59 166.25 3400.59 181.806C3115.49 210.729 2833.27 198.333 2549.41 166.517C2411.5 151.712 2272.59 133.223 2133.17 114.667C1988.55 95.4186 1843.39 76.0974 1698.23 60.7396C1417.26 28.9236 1133.39 16.5278 851.18 7.4375C566.076 0 283.452 0 141.726 0H141.726Z" fill="#D9EEE1"/>
+            </svg>
+        </div>
+        <div class="w3-center ws-light-green" style="margin-top: -1px;">
+            <div class="w3-content">
+                <div style="padding-top:50px; padding-bottom:30px;">
+                    <h2 style="font-weight: 900;">Save Time with Templates</h2>
+                    <h4 class="undertitle">Build powerful websites in just a few clicks</h4>
+                </div>
+                <div class="templates">
+                    <div class="templates-item w3-cell" style="flex-direction:row !important;">
+                        <img src="portfolio_template.png" alt="Gamer website template" style="height: 220px;"><br>
+                        <a class="spaces-button w3-button w3-round-xxlarge w3-border ws-hover-green" href="https://spaces.w3schools.com/createspace?template=blackandwhiteportfolio" style="background-color: #D9EEE1; border-color: #04AA6D !important; border-width: 1px !important; color: #282A35; padding: 8px; padding-left: 80px; padding-right: 80px; margin-top: 20px; margin-bottom: 30px; font-size: medium;"><b>Portfolio</b></a> <br>
+                    </div>
+                    <div class="templates-item w3-cell" style="flex-direction:row !important;">
+                        <img src="blog_template.png" alt="Blog website template" style="height: 220px;"><br>
+                        <a class="spaces-button w3-button w3-round-xxlarge w3-border ws-hover-green" href="https://spaces.w3schools.com/createspace?template=node-handlebars-blog" style="background-color: #D9EEE1; border-color: #04AA6D !important; border-width: 1px !important; color: #282A35; padding: 8px; padding-left: 80px; padding-right: 80px; margin-top: 20px; margin-bottom: 30px; font-size: medium;"><b>Blog</b></a> <br>
+                    </div>
+                </div>
+                <div class="templates">
+                    <div class="templates-item w3-cell" style="flex-direction:row !important;">
+                        <img src="webshop_template.png" alt="AI website template" style="height: 220px;"><br>
+                        <a class="spaces-button w3-button w3-round-xxlarge w3-border ws-hover-green" href="https://spaces.w3schools.com/createspace?template=node-none-webshop" style="background-color: #D9EEE1; border-color: #04AA6D !important; border-width: 1px !important; color: #282A35; padding: 8px; padding-left: 80px; padding-right: 80px; margin-top: 20px; margin-bottom: 30px; font-size: medium;"><b>Webshop</b></a> <br>
+                    </div>
+                    <div class="templates-item w3-cell" style="flex-direction:row !important;">
+                        <img src="tutor_template.png" alt="Tutor website template" style="height: 220px;"><br>
+                        <a class="spaces-button w3-button w3-round-xxlarge w3-border ws-hover-green" href="https://spaces.w3schools.com/createspace?template=node-react-the_tutor" style="background-color: #D9EEE1; border-color: #04AA6D !important; border-width: 1px !important; color: #282A35; padding: 8px; padding-left: 80px; padding-right: 80px; margin-top: 30px; margin-bottom: 30px; font-size: medium;"><b>Tutor</b></a> <br>
+                    </div>
+                </div>
+                <a class="spaces-button w3-button w3-round-xxlarge w3-border ws-hover-green" href="https://spaces.w3schools.com/createspace" style="background-color: #D9EEE1; border-color: #04AA6D !important; border-width: 1px !important; color: #282A35; padding: 8px; padding-left: 80px; padding-right: 80px; margin-top: 10px; font-size: medium;font-size:19px;">Explore All Templates</a> <br>
+                <a class="spaces-button responsive-margin w3-button w3-round-xxlarge ws-black ws-hover-black" href="https://spaces.w3schools.com/createspace" style="color: #ffffff; padding: 10px; padding-left: 80px; padding-right: 80px; margin-top: 60px;">Get Spaces</a>
+            </div>
+            <svg style="width: 100%; margin-bottom: -10px;" viewBox="0 0 5950 410" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M141.726 45.4514L0 0V409.063H140.486H851.18H1698.23H2549.41H3400.59H4251.77H5098.82H5950V189.243C5938.41 191.46 5926.82 193.683 5915.25 195.905C5642.01 248.332 5371.94 300.154 5098.82 265.271C4981.35 249.378 4863.23 216.296 4744.97 183.176C4580.38 137.076 4415.51 90.9028 4251.77 90.9028C4061.21 90.9028 3871.39 151.819 3682.05 212.577C3588.12 242.721 3494.31 272.826 3400.59 295.434C3115.49 363.611 2833.27 363.611 2549.41 318.16C2445.26 301.311 2340.53 278.217 2235.46 255.045C2057.07 215.705 1877.65 176.138 1698.23 166.517C1557.84 159.704 1416.73 170.738 1275.46 181.783C1134 192.843 992.382 203.916 851.18 197.094C567.058 181.858 285.398 91.5281 143.195 45.9227L141.726 45.4514Z" fill="#04AA6D"/>
+            </svg>
+        </div>
+        <div class="w3-center ws-green" style="margin-top: -1px;">
+            <div class="w3-content">
+                <div style="padding-top:50px;">
+                    <h2 style="font-weight: 900;">Super Simple to Share</h2>
+                    <h4 style="margin-top: -8px;" class="undertitle">Host and Publish Websites in no time</h4><div class="w3-center ws-green">
+                        <div class="w3-center w3-content w3-row-padding">
+                            <div class="text-content w3-center w3-padding-32 w3-row w3-container" style="margin-bottom: -90px !important;">
+                                <div class="feature-responsive text-domain text-padding w3-col l6">
+                                    <h3 class="rightside-text-padding w3-left-align" style="margin-left: 6px;"><b>Included for free in all plans</b></h3>
+                                    <h6 class="rightside-text-padding w3-left-align" style="margin-top: -8px; margin-left: 6px;">W3Schools subdomain, hosting, and SSL certificate.</h6>
+                                    <h3 class="rightside-text-padding w3-left-align" style="margin-left: 6px;"><b>Want custom domains?</b></h3>
+                                    <h6 class="rightside-text-padding w3-left-align" style="margin-top: -8px; margin-left: 6px;">Buy a domain or transfer an existing one and connect it to your space.</h6>
+                                </div>
+                                <img class="feature-responsive image-domain w3-col l6 w3-image w3-center" src="domain.png" alt="Example domain" style="z-index: 1 !important;">
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>            
+        </div>
+        <div class="domain-section w3-center" style="background-color:#282A35!important;color:white!important;margin-top: -30px; padding-bottom: 80px; z-index: 2 !important;">
+            <svg style="width: 100%; margin-top: -130px !important; " viewBox="0 0 5950 194" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M330.556 118.216L0 152.511V193.831H330.556H1983.33H3966.67H5950V0.869141C5804.56 6.95963 5659.11 13.7101 5513.67 20.4605C4998 44.3939 4482.33 68.3273 3966.67 62.8483C3674.12 60.4714 3381.57 47.8189 3089.02 35.1665C2720.46 19.2265 2351.9 3.2864 1983.33 7.89345C1322.22 16.1573 661.111 82.2684 330.556 118.216Z" fill="#282A35"/>
+            </svg>  
+            <div class="how-it-works-container row">
+                <div class="how-it-works hide-large">
+                  <h2>How it works</h2>
+                  <div>
+                    <img src="space.svg" class="window" alt="Join W3Schools - and create a space">
+                    <br><br>
+                    <div class="step">1. Join W3Schools<br>- and create a space</div>
+                    <br><br>
+                    <img src="templates.svg" class="wtf" alt="Choose a template - or start from scratch">
+                    <br><br>
+                    <div class="step">2. Choose a template<br>- or start from scratch</div>              
+                    <br><br>              
+                    <img src="editor.svg" class="code-paper" alt="Edit your code and make it yours">
+                    <br><br>              
+                    <div class="step">3. Edit code directly<br>in your browser</div>
+                    <br><br>              
+                    <img src="world.svg" class="globe" alt="Share your space with someone">
+                    <br><br>              
+                    <div class="step">4. Share your website<br>with the world</div>
+                    <br><br>              
+                  </div>
+                </div>
+                <div class="how-it-works hide-small">
+                  <img src="how-spaces-works3.png">
+              </div>
+            </div>
+        </div>
+        <div class="w3-center ws-light-green" style="padding-top:50px; padding-bottom:80px;">
+            <div class="w3-center w3-content w3-row-padding">
+                <h2><b>Coding Made Easy</b></h2>
+                <h6>All at your fingertips with our easy-to-use <b>code editor</b></h6>
+                <div class="w3-content info w3-left-align" style="padding-bottom:30px; padding-top:30px;">
+                    <p class="info-item w3-cell" style="font-size: large;"><img src="check.svg" style="margin-bottom: 4px; padding-right: 5px;"><b style="color: #282A35;">Cloud-based</b></p>
+                    <p class="info-item w3-cell" style="font-size: large;"><img src="check.svg" style="margin-bottom: 4px; padding-right: 5px;"><b style="color: #282A35;">Terminal & Log</b></p>
+                    <p class="info-item w3-cell" style="font-size: large;"><img src="check.svg" style="margin-bottom: 4px; padding-right: 5px;"><b style="color: #282A35;">How To Libraries</b></p>
+                    <p class="info-item w3-cell" style="font-size: large;"><img src="check.svg" style="margin-bottom: 4px; padding-right: 5px;"><b style="color: #282A35;">Database</b></p>
+                    <p class="info-item w3-cell" style="font-size: large;"><img src="check.svg" style="margin-bottom: 4px; padding-right: 5px;"><b style="color: #282A35;">File Navigator</b></p>
+                    <p class="info-item w3-cell" style="font-size: large;"><img src="check.svg" style="margin-bottom: 4px; padding-right: 5px;"><b style="color: #282A35;">Package Manager</b></p>
+                    <p class="info-item w3-cell" style="font-size: large;"><img src="check.svg" style="margin-bottom: 4px; padding-right: 5px;"><b style="color: #282A35;">Analytics</b></p>
+                    <p class="info-item w3-cell" style="font-size: large;"><img src="check.svg" style="margin-bottom: 4px; padding-right: 5px;"><b style="color: #282A35;">Environment Manager</b></p>
+                </div>
+            </div>
+            <a class="spaces-button w3-button w3-round-xxlarge ws-green ws-hover-green" href="https://spaces.w3schools.com/createspace" style="padding: 10px; padding-left: 80px; padding-right: 80px; margin-top: 20px; margin-left: 36px;">Get Spaces</a>
+        </div>
+        <div class="w3-center ws-white" style="padding-top:50px; padding-bottom:50px;">
+            <div class="w3-center w3-content w3-row-padding">
+                <div class="w3-center w3-padding-32 w3-row w3-container">
+                    <div class="public-profile w3-center w3-padding-32 w3-row w3-container">
+                        <img class="w3-col l6 w3-image w3-right" src="spaces.png">
+                        <div class="w3-col l6">
+                            <h6 class="w3-left-align" style="margin-left: 6px;"><b>Cloud-Based</b></h6>
+                            <h3 class="w3-left-align" style="margin-left: 6px;"><b>Save Time &amp; Money.</b></h3>
+                            <h6 class="w3-left-align text" style="margin-top: -5px; margin-left: 6px;">No installation required. Access everything in your browser. Get started in seconds.</h6>
+                            <a class="spaces-button w3-button w3-round-xxlarge ws-hover-green w3-left" href="https://spaces.w3schools.com/createspace" style="background-color: #04AA6D; color: #ffffff; padding: 10px; padding-left: 80px; padding-right: 80px; margin-top: 20px;">Get Spaces</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w3-center ws-light-green" style="padding-top:50px; padding-bottom:50px;">
+            <div class="w3-center w3-content w3-row-padding">
+                <div class="text-content w3-center w3-padding-32 w3-row w3-container">
+                    <div class="files-image feature-responsive w3-col l6 w3-center w3-auto" style="width: 50%;">
+                        <img class="feature-image w3-col l6 w3-image w3-auto w3-center" src="files.png" alt="File Navigation" style="margin-bottom: 20px; max-height: 300px; width: auto !important;">
+                    </div>
+                    <div class="feature-responsive text-padding w3-col l6">
+                        <h6 class="rightside-text-padding w3-left-align" style="color: #282A35; margin-left: 6px;"><b>File Navigator</b></h6>
+                        <h3 class="rightside-text-padding w3-left-align" style="color: #282A35; margin-left: 6px;"><b>All Your Files in One Place.</b></h3>
+                        <h6 class="rightside-text-padding w3-left-align" style="color: #282A35; margin-top: -5px; margin-left: 6px;">Find and switch easily between your code files without leaving the code editor.</h6>
+                        <a class="spaces-button w3-button w3-round-xxlarge ws-black ws-hover-black w3-left" href="https://spaces.w3schools.com/createspace" style="padding: 10px; padding-left: 80px; padding-right: 80px; margin-top: 20px; margin-left: 36px;">Get Spaces</a>
+                    </div>
+                </div>
+            </div>                        
+        </div>
+        <div class="w3-center ws-green" style="padding-top:50px; padding-bottom:50px;">
+            <div class="w3-center w3-content w3-row-padding">
+                <div class="w3-center w3-padding-32 w3-row w3-container">
+                    <div class="public-profile w3-center w3-padding-32 w3-row w3-container">
+                        <img class="feature-responsive w3-col l6 w3-image w3-right" src="debug.png">
+                        <div class="feature-responsive w3-col l6">
+                            <h6 class="w3-left-align" style="margin-left: 6px;"><b>Terminal and Log</b></h6>
+                            <h3 class="w3-left-align" style="margin-left: 6px;"><b>Fix Your Code Faster.</b></h3>
+                            <h6 class="w3-left-align text" style="margin-top: -5px; margin-left: 6px;">Monitor your code, debug and troubleshoot your work during the development process.</h6>
+                            <a class="spaces-button w3-button w3-round-xxlarge ws-black ws-hover-black w3-left" href="https://spaces.w3schools.com/createspace" style="color: #ffffff; padding: 10px; padding-left: 80px; padding-right: 80px; margin-top: 20px;">Get Spaces</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w3-center ws-light-green" style="padding-top:50px; padding-bottom:50px;">
+            <div class="w3-center w3-content w3-row-padding">
+                <div class="text-content w3-center w3-padding-32 w3-row w3-container">
+                    <img class="feature-responsive w3-col l6 w3-image w3-center" src="database.png" alt="Spaces Built-In Database">
+                    <div class="feature-responsive text-padding w3-col l6">
+                        <h6 class="rightside-text-padding w3-left-align" style="margin-left: 6px;"><b>Database</b></h6>
+                        <h3 class="rightside-text-padding w3-left-align" style="margin-left: 6px;"><b>Get Full Data Visibility.</b></h3>
+                        <h6 class="rightside-text-padding w3-left-align" style="margin-top: -5px; margin-left: 6px;">Find and preview all the data stored in your website. Anytime, from anywhere.</h6>
+                        <a class="spaces-button w3-button w3-round-xxlarge ws-green ws-hover-green w3-left" href="https://spaces.w3schools.com/createspace" style="padding: 10px; padding-left: 80px; padding-right: 80px; margin-top: 20px; margin-left: 36px;">Get Spaces</a>
+                    </div>
+                </div>
+            </div>                        
+        </div>
+        <div class="w3-center ws-green" style="padding-top:50px; padding-bottom:50px;">
+            <div class="w3-center w3-content w3-row-padding">
+                <div class="w3-center w3-padding-32 w3-row w3-container">
+                    <div class="public-profile w3-center w3-padding-32 w3-row w3-container">
+                        <img class="feature-responsive files-image w3-col l6 w3-image w3-right" src="env.png" style="margin-bottom: 20px; max-height: 300px; width: auto !important;">
+                        <div class="feature-responsive w3-col l6">
+                            <h6 class="w3-left-align" style="margin-left: 6px;"><b>Environment Manager</b></h6>
+                            <h3 class="w3-left-align" style="margin-left: 6px;"><b>Increased Control and Security.</b></h3>
+                            <h6 class="w3-left-align text" style="margin-top: -5px; margin-left: 6px;">Control your website access points to establish secure connections.</h6>
+                            <a class="spaces-button w3-button w3-round-xxlarge ws-black ws-hover-black w3-left" href="https://spaces.w3schools.com/createspace" style="color: #ffffff; padding: 10px; padding-left: 80px; padding-right: 80px; margin-top: 20px;">Get Spaces</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w3-center ws-light-green" style="padding-top:50px; padding-bottom:50px;">
+            <div class="w3-center w3-content w3-row-padding">
+                <div class="text-content w3-center w3-padding-32 w3-row w3-container">
+                    <img class="feature-responsive w3-col l6 w3-image w3-center" src="package.png" alt="Spaces Built-In Database">
+                    <div class="feature-responsive text-padding w3-col l6">
+                        <h6 class="rightside-text-padding w3-left-align" style="margin-left: 6px;"><b>Package Manager</b></h6>
+                        <h3 class="rightside-text-padding w3-left-align" style="margin-left: 6px;"><b>Find What You Need Quicker.</b></h3>
+                        <h6 class="rightside-text-padding w3-left-align" style="margin-top: -5px; margin-left: 6px;">Search and install frameworks and libraries in just one click.</h6>
+                        <a class="spaces-button w3-button w3-round-xxlarge ws-green ws-hover-green w3-left" href="https://spaces.w3schools.com/createspace" style="padding: 10px; padding-left: 80px; padding-right: 80px; margin-top: 20px; margin-left: 36px;">Get Spaces</a>
+                    </div>
+                </div>
+            </div>                        
+        </div>
+        <div class="w3-center ws-green" style="padding-top:50px; padding-bottom:50px;">
+            <div class="w3-center w3-content w3-row-padding">
+                <div class="w3-center w3-padding-32 w3-row w3-container">
+                    <div class="public-profile w3-center w3-padding-32 w3-row w3-container">
+                        <img class="feature-responsive w3-col l6 w3-image w3-right" src="analytics.png">
+                        <div class="feature-responsive w3-col l6">
+                            <h6 class="w3-left-align" style="margin-left: 6px;"><b>User Analytics</b></h6>
+                            <h3 class="w3-left-align" style="margin-left: 6px;"><b>Get Traffic Insights.</b></h3>
+                            <h6 class="w3-left-align text" style="margin-top: -5px; margin-left: 6px;">Learn from your website visitors to deliver a better user experience.</h6>
+                            <a class="spaces-button w3-button w3-round-xxlarge ws-black ws-hover-black w3-left" href="https://spaces.w3schools.com/createspace" style="color: #ffffff; padding: 10px; padding-left: 80px; padding-right: 80px; margin-top: 20px;">Get Spaces</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w3-center community" style="margin-top: -1px;">
+            <div class="opacity">
+                <svg style="width: 100%; margin-bottom: 10px; margin-top: -1px;" viewBox="0 0 5950 365" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 123.957V0.00038491H5950L5950 151.641C5619.44 172.921 5288.89 210.418 4958.33 247.915C4627.78 285.413 4297.22 322.91 3966.67 344.19C3305.56 384.27 2644.44 359.478 1983.33 309.895C1322.22 260.311 661.111 194.2 330.556 158.252L0 123.957Z" fill="#04AA6D"/>
+                </svg>
+                <div class="w3-content">
+                    <div class="title" style="padding-top:160px; padding-bottom: 150px;">
+                        <h2 style="color: #FFFFFF;"><b>Get Inspired</b></h2>
+                        <h4 class="undertitle" style="color: #FFFFFF;"><b>Connect</b> and <b>share</b> your website with the community to get instant feedback</h4>
+                        <a class="spaces-button responsive-margin w3-button w3-round-xxlarge ws-green ws-hover-green" href="https://spaces.w3schools.com/createspace" style="padding: 10px; padding-left: 80px; padding-right: 80px; margin-top: 20px; margin-left: 36px;">Get Spaces</a>
+                    </div>
+                </div>
+                <div class="w3-center ws-light-green w3-hide-small">
+                    <img class="discord-image w3-image w3-center" src="discord.png" alt="W3Schools Community" style="margin-bottom: 20px; margin-top: -100px; width: 60%;">
+                    <svg style="width: 100%; margin-bottom: -10px; margin-top: 10px;"  viewBox="0 0 5950 372" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="wavepath2" fill-rule="evenodd" clip-rule="evenodd" d="M110.323 220.233L0 280.973V371.875H111.563H661.111H1322.22H1983.33H2644.44H3305.56H3966.67H4627.78H5288.89H5950V273.535C5731.01 326.424 5509.12 326.424 5288.89 303.698C5069.9 280.973 4848.01 235.521 4627.78 167.344C4582.25 153.169 4536.59 138.011 4490.85 122.826C4316.59 64.9747 4141.11 6.71801 3966.67 0.826898C3798.76 -6.14263 3629.16 38.3802 3459.91 82.8117C3408.41 96.3317 3356.94 109.843 3305.56 121.893C3086.56 173.542 2864.68 206.598 2644.44 235.521C2622.76 238.385 2601.04 241.29 2579.31 244.198C2381.52 270.655 2181.76 297.378 1983.33 296.261C1764.34 297.5 1542.45 264.445 1322.22 197.507C1271.46 181.417 1220.54 163.505 1169.53 145.559C1000.45 86.0849 830.294 26.2288 661.111 30.9901C450.288 36.9568 236.784 152.062 123.085 213.359C118.679 215.734 114.423 218.029 110.323 220.233Z" fill="white"/>
+                    </svg>                      
+                </div>
+            </div>
+        </div>
+        <div class="w3-center w3-white" style="margin-top: -1px;">
+            <div class="view-plans view-plans-header-row" style="padding-top:40px">
+                <h2 class="heading" id="subscription" style="padding-top:40px"><b>Subscription Plans</b></h2>
+             </div>
+             <div class="view-plans">
+               <h6 class="subheading" id="masternewskills" style="font-size:25px;margin-top:30px;">Unlock possibilities with Spaces</h6>
+             </div>
+               <div style="position:relative;width:100%; margin-bottom:90px;">
+                 <div style="position:absolute;top:20px;text-align:center;width:100%;">
+                   Monthly&nbsp;&nbsp;&nbsp;
+                   <img id="selectorimage" src="toggle.png" style="width:60px;cursor:pointer;" onclick="toggle_month_year()">
+                   &nbsp;&nbsp;&nbsp;Yearly<span class="hide-small"> (get 2 months for free)</span>
+                 </div>
+               </div>
+            <div class="w3-auto w3-center">
+                <div class="w3-row plans w3-auto w3-center" style="padding-bottom:80px;">
+                    <div class="plans-part">
+                        <div class="w3-col l6 w3-border w3-round-xxlarge ws-white" style="border-width: 1px !important; border-color: #04AA6D !important; margin: 9px; min-width: 260px; max-width: 260px;">
+                            <div class="w3-row w3-center">
+                                <h2 style="margin-top: 20px; margin-bottom: -15px;font-size:36px"><b>Free</b></h2>
+                                <p style="font-size:16px;padding-left: 15px; padding-right: 15px;"><b>Code directly in the browser<br>
+                                No setup required</b></p>
+                                <img src="lynxbrown.svg" class="window" alt="Lynx logo" style=" margin-right: 6px;">
+                                <h6 style="margin-top:30px;padding-left: 55px; padding-right: 55px; margin-bottom: 6px;font-size:18px"><b>You Get</b></h6>
+                                <h1 style="margin-top:13px;margin-bottom: -10px;"><b>1</b></h1>
+                                <li style="font-size:17px;">Basic Space<br><span style="font-size:22px">+</span></li>
+                            </div>
+                            <div class="w3-left-align" style="margin-top: -15px; margin-bottom: 25px;">
+                                <ul style="margin-bottom: 28px; height: 217px;font-size:17px;">
+                                    <li>My Learning</li>
+                                    <li>Public Profile</li>
+                                    <li>W3Schools Community</li>
+                                    <li>W3Spaces Subdomain</li>
+                                    <li>SSL Certificate</li>
+                                </ul>
+                            </div>
+                            <div class="w3-center">
+                                <a class="spaces-button w3-button w3-round-xxlarge ws-green ws-hover-green" href="https://profile.w3schools.com/signup?redirect_url=https%3A%2F%2Fspaces.w3schools.com%2Fcreatespace%2Fstepone" style="color: #ffffff; padding: 10px; width: 150px; margin-top: 10px; margin-bottom: 30px;"><b>Get Free</b></a>
+                            </div>
+                        </div>
+                        <div class="plan w3-col l6 w3-border w3-round-xxlarge ws-white" style="border-width: 1px !important; border-color: #04AA6D !important; margin: 9px; min-width: 260px; max-width: 260px;">
+                            <div class="w3-row w3-center">
+                                <h2 style="margin-top: 20px; margin-bottom: -15px;font-size:36px"><b>Pro</b></h2>
+                                <p style="padding-left: 15px; padding-right: 15px;font-size:16px;"><b>Build and host your<br>frontend projects</b></p>
+                                <div class="price"><span style="color: #04AA6D; font-size: 45px; font-weight: 900;" id="proprice">$4.99</span><span id="properiod" class="period">/month</span></div>
+                                <h6 style="font-size:18px">All <b>Free</b> <br>+ upgraded to</h6>
+                                <h1 style="margin-bottom: -10px;"><b>10</b></h1>
+                                <li style="font-size:17px">Basic Spaces<br><span style="font-size:22px">+</span></li>
+                            </div>
+                            <div class="w3-left-align" style="margin-top: -15px; margin-bottom: 25px;">
+                                <ul style="margin-bottom: -21.5px; height: 235px;font-size:17px;">
+                                    <li><b>Ad Free</b> Browsing</li>
+                                    <li>Analytics</li>
+                                    <li>HTML Video Tutorial</li>
+                                    <li>Download Zip</li>
+                                    <li>Private Mode</li>
+                                    <li>Priority Support</li>
+                                    <li>Cancel Anytime</li>
+                                </ul>
+                            </div>
+                            <div class="w3-center">
+                                <a class="spaces-button w3-button w3-round-xxlarge ws-green ws-hover-green" id="plans_pro_btn" href="https://billing.w3schools.com/products/spaces?frequency=monthly&amp;selectedPlan=pro-monthly" style="color: #ffffff; padding: 10px; width: 150px; margin-top: 10px; margin-bottom: 30px;"><b>Get Pro</b></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plans-part">
+                        <div class="plan w3-col l6 w3-border w3-round-xxlarge ws-light-green" style="border-width: 1px !important; border-color: #04AA6D !important; margin: 9px; min-width: 260px; max-width: 260px;">
+                            <div class="plan-content w3-row w3-center">
+                                <h2 style="margin-top: 20px; margin-bottom: -15px;font-size:36px"><b>Premium</b></h2>
+                                <p style="padding-left: 15px; padding-right: 15px;font-size:16px"><b>Get backend support and all you need to build a web app</b></p>
+                                <div class="price"><span style="color: #04AA6D; font-size: 45px; font-weight: 900;" id="premiumprice">$9.99</span><span id="premiumperiod" class="period">/month</span></div>
+                                <h6 style="font-size:18px">All <b>Pro</b> <br>+ upgraded to</h6>
+                                <h1 style="margin-bottom: -10px;"><b>15</b></h1>
+                                <li style="font-size:17px">Basic Spaces</li>
+                                <h1 style="margin-bottom: -10px;"><b>1</b></h1>
+                                <li style="font-size:17px;">Fullstack Space<br><span style="font-size:15px">+ Database</span></li>
+                            </div>
+                            <div class="w3-center">
+                                <a class="spaces-button w3-button w3-round-xxlarge ws-black ws-hover-black" id="plans_premium_btn" href="https://billing.w3schools.com/products/spaces?frequency=monthly&amp;selectedPlan=premium-monthly" style="color: #ffffff; padding: 10px; width: 150px; margin-top: 10px; margin-bottom: 30px;"><b>Get Premium</b></a>
+                            </div>
+                        </div>
+                        <div class="w3-col l6 w3-border w3-round-xxlarge ws-white" style="border-width: 1px !important; border-color: #04AA6D !important; margin: 9px; min-width: 260px; max-width: 260px;">
+                            <div class="plan-content w3-row w3-center">
+                                <h2 style="margin-top: 20px; margin-bottom: -15px;font-size:36px"><b>Diamond</b></h2>
+                                <p style="padding-left: 15px; padding-right: 15px;font-size:16px"><b>Get more server power for professionals and businesses</b></p>
+                                <div class="price"><span style="color: #04AA6D; font-size: 45px; font-weight: 900;" id="diamondprice">$29.99</span><span id="diamondperiod" class="period">/month</span></div>
+                                <h6 style="font-size:18px">All <b>Premium</b> <br>+ upgraded to</h6>
+                                <h1 style="margin-bottom: -10px;"><b>20</b></h1>
+                                <li style="font-size:17px">Basic Spaces</li>
+                                <h1 style="margin-bottom: -10px;"><b>3</b></h1>
+                                <li style="font-size:17px;">Fullstack Spaces<br><span style="font-size:15px">+ Databases</span></li>
+                            </div>
+                            <div class="w3-center">
+                                <a class="spaces-button w3-button w3-round-xxlarge ws-green ws-hover-green" id="plans_diamond_btn" href="https://billing.w3schools.com/products/spaces?frequency=monthly&amp;selectedPlan=diamond-monthly" style="color: #ffffff; padding: 10px; width: 150px; margin-top: 10px; margin-bottom: 30px;"><b>Get Diamond</b></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ws-black" style="position:relative;padding:18px;border-radius:20px;margin-top:-35px;margin-left:24px;margin-right:24px;">
+                <div class="w3-row-padding">
+                <div class="w3-col m6">
+                <div style="position:absolute;left:35px;top:50px;color:#FFF4A3" class="w3-hide-medium w3-hide-small"> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="57" height="76" fill="currentColor" class="bi bi-stars" viewBox="0 0 16 16">
+                 <path d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828l.645-1.937zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.734 1.734 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.734 1.734 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.734 1.734 0 0 0 3.407 2.31l.387-1.162zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L10.863.1z"/>
+                </svg>
+                </div>
+                <h4 style="letter-spacing:1px">NEW SUBSCRIBER DEAL</h4>
+                <h2 style="color:#ffc0c7;font-weight:700;font-size:50px;margin-top:-18px;margin-bottom:-15px;">25% OFF</h2>
+                <h4 style="letter-spacing:1px">FOR A YEAR</h4>
+                </div>
+                <div class="w3-col m6">
+                <h4 class="w3-hide-medium w3-hide-small">&nbsp;</h4>
+                <h4 class="w3-hide-medium w3-hide-small" style="color:#ffc0c7;">USE PROMO CODE: <span class="ws-pink" style="border-radius:25px;margin-left:15px;padding:8px 32px;">SPACES25</span></h4>
+                <h4 class="w3-hide-large" style="color:#ffc0c7;">USE PROMO CODE:</h4><br>
+                <span class="ws-pink w3-hide-large" style="border-radius:25px;margin-left:15px;padding:8px 32px;font-size:20px">SPACES25</span>
+                <h4 style="margin-bottom:-10px">&nbsp;</h4>
+                </div>
+                </div>
+                </div>
+                <div class="multiple_users" style="margin-bottom:70px;margin-top:45px">
+                <h4 style="font-size:21px">Want custom domains?</h4>
+                <p>You can also buy a domain or connect an existing one.</p>
+                  <h4 style="margin-top:24px;margin-bottom:0">Looking to add multiple users?</h4>
+                  <a href="https://support.w3schools.com/hc/en-gb/articles/4411122929553-How-do-I-do-bulk-enrolments" target="_blank">
+                    Read here for how to get in touch
+                  </a>
+               </div>
+            </div>
+        </div>
+        <div class="w3-center ws-black" style="margin-top: -1px;">
+            <div class="w3-center w3-content">
+                <div class="faq w3-center w3-content" style="padding-top: 55px;">
+                    <h2 style="color: #ffc0c7;"><b>Frequently Asked Questions</b></h2><br>
+                    <button class="accordion" style="display: flex; flex-direction: row;"><img class="faq-icon" src="chevron-down.svg"> &nbsp; &nbsp; <b style="padding-top: 2px;">What's the difference between 'Basic' and 'Full Stack' Spaces?</b></button>
+                    <div class="panel">
+                        <p>With Basic Spaces, you can build frontend websites. Whereas with Fullstack Spaces, you can build frontend and backend websites.</p>
+                    </div>   
+                    <button class="accordion" style="display: flex; flex-direction: row;"><img class="faq-icon" src="chevron-down.svg"> &nbsp; &nbsp; <b style="padding-top: 2px;">Which programming languages are included in 'Basic' and 'Full Stack' Spaces?</b></button>
+                    <div class="panel">
+                        <p>Basic Spaces include HTML, CSS, and Javascript. Full Stack Spaces include everything in Basic Spaces plus PHP, Python, React.js, Vue.js, Node.js, Handlebars, and Django.</p>
+                    </div>
+                    <button class="accordion" style="display: flex; flex-direction: row;"><img class="faq-icon" src="chevron-down.svg"> &nbsp; &nbsp; <b style="padding-top: 2px;">How are subscriptions renewed?</b></button>
+                    <div class="panel">
+                        <p>Your subscription will be automatically renewed every month.</p>
+                    </div>
+                    <button class="accordion" style="display: flex; flex-direction: row;"><img class="faq-icon" src="chevron-down.svg"> &nbsp; &nbsp; <b style="padding-top: 2px;">What happens if I cancel my subscription?</b></button>
+                    <div class="panel">
+                        <p>Your access to all the benefits for the paid period of time will continue. However, the subscription will not be renewed automatically.</p>
+                    </div>
+                    <button class="accordion" style="display: flex; flex-direction: row;"><img class="faq-icon" src="chevron-down.svg"> &nbsp; &nbsp; <b style="padding-top: 2px;">Can I subscribe to multiple accounts at once?</b></button>
+                    <div class="panel">
+                        <p>To subscribe W3Schools accounts for multiple users, you can contact sales@w3schools.com</p>
+                    </div>
+                </div>
+                <h4 class="undertitle" style="color: #FFFFFF;">Have some other questions? <a href="https://support.w3schools.com/hc/en-gb" target="_blank">Visit our support page</a></h4>
+                <a class="spaces-button w3-button w3-round-xxlarge ws-green ws-hover-green" href="https://billing.w3schools.com/products/spaces?frequency=monthly&amp;selectedPlan=pro-monthly" style="padding: 10px; padding-left: 80px; padding-right: 80px; margin-top: 20px;margin-bottom:20px">Subscribe for $4.99/month</a>
+                <h6 style="color: #FFFFFF;">Cancel anytime.</h6><br>
+            </div>
+        </div>
+                <footer class="w3-container w3-center w3-padding-32 ws-black" style="padding-left:25px;padding-right:25px;margin-top: -10px">
+            <div class="w3-container">
+             <a class="w3-bar-item w3-button w3-hover-white w3-xlarge w3-round w3-right topnav-some" target="_blank" href="https://discord.gg/6Z7UaRbUQM" title="Join the W3schools community on Discord"><i class="fa">&#59399;</i></a>
+             <a class="w3-bar-item w3-button w3-hover-white w3-xlarge w3-round w3-right topnav-some" target="_blank" href="https://www.linkedin.com/company/w3schools.com/" title="W3Schools on LinkedIn"><i class="fa">&#62220;</i></a>
+             <a class="w3-bar-item w3-button w3-hover-white w3-xlarge w3-round w3-right topnav-some" target="_blank" href="https://www.instagram.com/w3schools.com_official/" title="W3Schools on Instagram"><i class="fa">&#61805;</i></a>
+             <a class="w3-bar-item w3-button w3-hover-white w3-xlarge w3-round w3-right topnav-some" target="_blank" href="https://www.facebook.com/w3schoolscom/" title="W3Schools on Facebook"><i class="fa">&#59398;</i></a>
+            </div>
+            <p class="w3-medium">
+            W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of
+            all content. While using this site, you agree to have read and accepted our <a href="/about/about_copyright.asp" class="w3-hover-text-green">terms of use</a>, <a href="/about/about_privacy.asp" class="w3-hover-text-green">cookie and privacy policy</a>.<br>
+            <a href="/about/about_copyright.asp" class="w3-hover-text-green">Copyright 1999-2023</a> by Refsnes Data. All Rights Reserved.<br><br></p>
+            
+            <a href="javascript:void(0);" onclick="clickFBLike()" title="Like W3Schools on Facebook">
+            <i class="fa fa-thumbs-o-up w3-xxlarge w3-hover-opacity"></i></a>
+            
+            <div id="fblikeframe" class="w3-modal">
+             <div class="w3-modal-content w3-padding-64 w3-round" id="popupDIV"></div>
+            </div>
+           </footer>
+        <script>
+        var acc = document.getElementsByClassName("accordion");
+          var i;
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
+                }
+              });
+            }
+        var images = document.querySelectorAll(".faq-icon");
+        images.forEach(function(image) {
+            image.addEventListener("click", changeImage);
+        });
+
+        function changeImage() {
+            if (this.src.match("chevron-down")) {
+            this.src = "chevron-up.svg";
+            } else {
+            this.src = "chevron-down.svg";
+            }
+        }
+      </script>
+      <script>
+        function toggle_month_year() {
+          var img;
+          img = document.getElementById("selectorimage");
+          if (img.src.indexOf("toggle.png") > -1) {
+            img.src = "toggle_right.png";
+            document.getElementById("proprice").innerHTML = "$49.99";
+            document.getElementById("premiumprice").innerHTML = "$99.99";
+            document.getElementById("diamondprice").innerHTML = "$299.99";
+            document.getElementById("properiod").innerHTML = "/year";
+            document.getElementById("premiumperiod").innerHTML = "/year";
+            document.getElementById("diamondperiod").innerHTML = "/year";                        
+            document.getElementById("plans_pro_btn").href = "https://billing.w3schools.com/products/spaces?frequency=yearly&selectedPlan=pro-yearly";
+            document.getElementById("plans_premium_btn").href = "https://billing.w3schools.com/products/spaces?frequency=yearly&selectedPlan=premium-yearly";
+            document.getElementById("plans_diamond_btn").href = "https://billing.w3schools.com/products/spaces?frequency=yearly&selectedPlan=diamond-yearly";
+          } else {
+            img.src = "toggle.png";
+            document.getElementById("proprice").innerHTML = "$4.99";
+            document.getElementById("premiumprice").innerHTML = "$9.99";
+            document.getElementById("diamondprice").innerHTML = "$29.99";
+            document.getElementById("properiod").innerHTML = "/month";
+            document.getElementById("premiumperiod").innerHTML = "/month";
+            document.getElementById("diamondperiod").innerHTML = "/month";            
+            document.getElementById("plans_pro_btn").href = "https://billing.w3schools.com/products/spaces?frequency=monthly&amp;selectedPlan=pro-monthly";
+            document.getElementById("plans_premium_btn").href = "https://billing.w3schools.com/products/spaces?frequency=monthly&selectedPlan=premium-monthly";
+            document.getElementById("plans_diamond_btn").href = "https://billing.w3schools.com/products/spaces?frequency=monthly&selectedPlan=diamond-monthly";
+         }
+        }
+        </script>
+
+<script>
+function w3_open() {
+  var x = document.getElementById("myAccordion");
+  if (x.style.display === 'none') {
+    x.style.display = 'block';
+    if (document.getElementById("navbtn_menu")) {
+      document.getElementById("navbtn_menu").getElementsByTagName("i")[0].style.display = "none";
+      document.getElementById("navbtn_menu").getElementsByTagName("i")[1].style.display = "inline";
+    }
+  } else {
+    x.style.display = 'none';
+    if (document.getElementById("navbtn_menu")) {
+      document.getElementById("navbtn_menu").getElementsByTagName("i")[0].style.display = "inline";
+      document.getElementById("navbtn_menu").getElementsByTagName("i")[1].style.display = "none";
+    }
+  }
+}
+function w3_close() {
+  document.getElementById("myAccordion").style.display = "none";
+}
+function open_xs_menu(x) {
+  if (document.getElementById("sectionxs_" + x).innerHTML == "") {
+    document.getElementById("sectionxs_" + x).innerHTML = document.getElementById("nav_" + x).innerHTML;
+  } else {
+    document.getElementById("sectionxs_" + x).innerHTML = "";
+  }
+}
+function w3_open_nav(x) {
+  if (document.getElementById("nav_" + x).style.display == "block") {
+    w3_close_nav(x);
+  } else {
+    w3_close_nav("tutorials");
+    w3_close_nav("references");
+    w3_close_nav("exercises");
+    document.getElementById("nav_" + x).style.display = "block";
+    if (document.getElementById("navbtn_" + x)) {
+      document.getElementById("navbtn_" + x).getElementsByTagName("i")[0].style.display = "none";
+      document.getElementById("navbtn_" + x).getElementsByTagName("i")[1].style.display = "inline";
+      document.getElementById("navbtn_" + x).classList.add("mystyle");
+    } 
+    if (x == "search") {
+      if (document.getElementById("gsc-i-id1")) {document.getElementById("gsc-i-id1").focus(); }
+    }
+  }
+}
+function w3_close_all_nav() {
+  w3_close_nav("tutorials");
+  w3_close_nav("references");
+  w3_close_nav("exercises");
+  w3_close();
+}
+function w3_close_nav(x) {
+  document.getElementById("nav_" + x).style.display = "none";
+  if (document.getElementById("navbtn_" + x)) {
+    document.getElementById("navbtn_" + x).getElementsByTagName("i")[0].style.display = "inline";
+    document.getElementById("navbtn_" + x).getElementsByTagName("i")[1].style.display = "none";
+    document.getElementById("navbtn_" + x).classList.remove("mystyle");
+  }
+}
+
+
+function mouseoverdarkicon() {
+  var a = document.getElementById("darkmodemenu");
+  a.style.top = "48px";
+  a.style.visibility = "visible";
+}
+function mouseoutofdarkicon() {
+  var a = document.getElementById("darkmodemenu");
+  a.style.top = "35px";
+  a.style.visibility = "hidden";
+}
+function changepagetheme(n) {
+  var b = document.getElementById("radio_darkpage");
+  document.body.className = document.body.className.replace("darktheme", "");
+  document.body.className = document.body.className.replace("darkpagetheme", "");    
+  document.body.className = document.body.className.replace("  ", " ");
+  if (b.checked) {
+    localStorage.setItem("preferredmode", "light");
+    localStorage.setItem("preferredpagemode", "light");
+    b.checked = false;    
+    document.getElementById("wavepath1").style.fill = "white";
+    document.getElementById("wavepath2").style.fill = "white";
+  } else {
+    document.body.className += " darktheme";
+    document.body.className += " darkpagetheme";  
+    localStorage.setItem("preferredmode", "dark");
+    localStorage.setItem("preferredpagemode", "dark");
+    b.checked = true;    
+    document.getElementById("wavepath1").style.fill = "#1d2a35"; 
+    document.getElementById("wavepath2").style.fill = "#1d2a35"; 
+  }
+}
+
+
+function click_darkpage() {
+  var b = document.getElementById("radio_darkpage");
+  if (b.checked) {
+    document.body.className += " darkpagetheme";
+    document.body.className = document.body.className.replace("  ", " ");    
+    localStorage.setItem("preferredpagemode", "dark");
+    document.getElementById("wavepath1").style.fill = "#1d2a35";
+    document.getElementById("wavepath2").style.fill = "#1d2a35";
+    
+  } else {
+    document.body.className = document.body.className.replace("darkpagetheme", "");
+    document.body.className = document.body.className.replace("  ", " ");    
+    localStorage.setItem("preferredpagemode", "light");
+    document.getElementById("wavepath1").style.fill = "white";    
+    document.getElementById("wavepath2").style.fill = "white";    
+  }
+}
+
+
+function changecodetheme() {
+  var cc = document.body.className;
+  if (cc.indexOf("darktheme") > -1) {
+    document.body.className = cc.replace("darktheme", "");
+    localStorage.setItem("preferredmode", "light");
+  } else {
+    document.body.className += " darktheme";
+    localStorage.setItem("preferredmode", "dark");
+  }
+}
+function open_translate(elmnt) {
+  var a = document.getElementById("google_translate_element");
+  if (a.style.display == "") {
+    a.style.display = "none";
+    elmnt.innerHTML = "<i class='fa'>&#xe801;</i>";
+  } else {
+    a.style.display = "";
+    if (window.innerWidth > 830) {
+      a.style.width = "32%";
+    } else {
+      a.style.width = "60%";
+    }
+    elmnt.innerHTML = "<span style='font-size:17px;font-family:verdana;font-weight:bold;display:inline-block;text-align:center;'>&times;</span>";
+  }
+}
+function open_search(elmnt) {
+  var a = document.getElementById("googleSearch");
+  document.getElementById("navbtn_tutorials").style.visibility = "visible";
+  if (a.style.display == "") {
+    a.style.display = "none";
+    elmnt.innerHTML = "<i class='fa'>&#xe802;</i>";    
+  } else {
+    a.style.display = "";  
+    if (window.innerWidth > 1000) {
+      a.style.width = "50%";
+    } else if (window.innerWidth >768) {
+      document.getElementById("navbtn_tutorials").style.visibility = "hidden";
+      a.style.width = "80%";    
+    } else {
+      a.style.width = "80%";
+    }
+    window.setTimeout(function () {
+        if (document.getElementById("gsc-i-id1")) {
+          document.getElementById("gsc-i-id1").focus();
+        }
+      }, 400);
+    //elmnt.innerHTML = "<span style='font-size:17px;font-family:verdana;font-weight:bold;display:inline-block;text-align:center;'>&times;</span>";
+  }
+}
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+  pageLanguage: 'en',
+  autoDisplay: false,    
+  gaTrack: true,
+  gaId: 'UA-3855518-1',
+  layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
+}
+function clickFBLike() {
+  document.getElementById("fblikeframe").style.display='block';
+  document.getElementById("popupDIV").innerHTML = "<iframe src='/fblike.asp?r=" + Math.random() + "' frameborder='no' style='height:200px;width:250px;'></iframe><br><button onclick='hideFBLike()' class='w3-button w3-round w3-large ws-black'>Close</button>";
+}
+function hideFBLike() {
+  document.getElementById("fblikeframe").style.display='none';
+}
+</script>
+
+<script>
+(
+function setThemeMode() {
+  var x = localStorage.getItem("preferredmode");
+  var y = localStorage.getItem("preferredpagemode");  
+  if (x == "dark") {
+    document.body.className += " darktheme";
+    
+  }
+  if (y == "dark") {
+    document.body.className += " darkpagetheme";
+    document.getElementById("wavepath1").style.fill = "#1d2a35";
+    document.getElementById("wavepath2").style.fill = "#1d2a35";
+    document.getElementById("radio_darkpage").checked = true;
+    
+  }
+})();
+</script>
+
+<script src="/lib/w3codecolor.js"></script>
+<script>
+  MyLearning.loadUser('default', function () {
+    if (UserSession.loggedIn) {
+      document.getElementById("signupbtn_topnav").style.display = "none";
+      document.getElementById("spacesbtn_topnav").style.display = "block";
+    }
+  });
+
+w3CodeColor();
+
+</script>
+
+
+</body>
+</html>

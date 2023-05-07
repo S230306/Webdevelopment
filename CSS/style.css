@@ -10,3 +10,7 @@ p {
     padding: 30px;
     margin: 50px; 
   }
+  a:hover{
+    color: rgb(255, 205, 232);
+    background-color: transparent;
+  }
